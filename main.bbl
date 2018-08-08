@@ -1,0 +1,132 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Fox%
+\ \protect \BOthers {.}}{%
+Fox%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+Nakanishi2007}
+\APACinsertmetastar {%
+Nakanishi2007}%
+\begin{APACrefauthors}%
+Fox, R\BPBI W.%
+\BCBT {}\ \BOthersPeriod {.}
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010{\protect \BCnt {1}}}.
+\newblock
+\APACrefbtitle {Introdução à Mecânica dos Fluidos} {Introdução à
+  mecânica dos fluidos}\ (\PrintOrdinal{7}\ \BEd).
+\newblock
+\APACaddressPublisher{Rio de Janeiro}{LTC}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fox%
+\ \protect \BOthers {.}}{%
+Fox%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+Mizuuchi2003}
+\APACinsertmetastar {%
+Mizuuchi2003}%
+\begin{APACrefauthors}%
+Fox, R\BPBI W.%
+\BCBT {}\ \BOthersPeriod {.}
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010{\protect \BCnt {2}}}.
+\newblock
+\APACrefbtitle {Introdução à Mecânica dos Fluidos} {Introdução à
+  mecânica dos fluidos}\ (\PrintOrdinal{7}\ \BEd).
+\newblock
+\APACaddressPublisher{Rio de Janeiro}{LTC}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Munson%
+, Rothmayer%
+, Okiishi%
+\BCBL {}\ \BBA {} Huebsch%
+}{%
+Munson%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+Mizuuchi2002}
+\APACinsertmetastar {%
+Mizuuchi2002}%
+\begin{APACrefauthors}%
+Munson, B\BPBI R.%
+, Rothmayer, A\BPBI P.%
+, Okiishi, T\BPBI H.%
+\BCBL {}\ \BBA {} Huebsch, W\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2013}.
+\newblock
+\APACrefbtitle {Fundamentals of Fluid Mechanics} {Fundamentals of fluid
+  mechanics}\ (\PrintOrdinal{7}\ \BEd).
+\newblock
+\APACaddressPublisher{New York}{John Wiley \& Sons}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Schlichting%
+\ \BBA {} Gersten%
+}{%
+Schlichting%
+\ \BBA {} Gersten%
+}{%
+{\protect \APACyear {2000}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+scht2000}
+\APACinsertmetastar {%
+scht2000}%
+\begin{APACrefauthors}%
+Schlichting, H.%
+\BCBT {}\ \BBA {} Gersten, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2000{\protect \BCnt {1}}}.
+\newblock
+\APACrefbtitle {Boundary-Layer Theory} {Boundary-layer theory}\
+  (\PrintOrdinal{8}\ \BEd).
+\newblock
+\APACaddressPublisher{New York}{Springer-Verlag Berlin Heidelberg}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Schlichting%
+\ \BBA {} Gersten%
+}{%
+Schlichting%
+\ \BBA {} Gersten%
+}{%
+{\protect \APACyear {2000}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+Mizuuchi2005}
+\APACinsertmetastar {%
+Mizuuchi2005}%
+\begin{APACrefauthors}%
+Schlichting, H.%
+\BCBT {}\ \BBA {} Gersten, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2000{\protect \BCnt {2}}}.
+\newblock
+\APACrefbtitle {Boundary-Layer Theory} {Boundary-layer theory}\
+  (\PrintOrdinal{8}\ \BEd).
+\newblock
+\APACaddressPublisher{New York}{Springer-Verlag Berlin Heidelberg}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
