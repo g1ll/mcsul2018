@@ -1,0 +1,518 @@
+\documentclass[12pt,A4,A4pt]{article}
+
+\usepackage{amsmath}
+\renewcommand*\familydefault{\sfdefault} 
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+%\usepackage[T1]{fontenc}
+%\usepackage{arial} 
+%\pagestyle{myheadings}{}
+ %\markboth{left head}{right head}
+\usepackage{amssymb}
+%\usepackage{epsfig}
+\usepackage{fancyhdr}
+\usepackage{float}
+%\usepackage[authoryear,round]{natbib}
+\usepackage{apacite}
+%\usepackage[sort&compress]{natbib}
+\usepackage[pdftex]{graphicx}
+\usepackage{color}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage{textcomp}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{times}
+\usepackage{multicol}
+\usepackage{lscape}
+\usepackage{subfig}
+\usepackage{epstopdf}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{epigraph}
+\usepackage{scrextend}
+\usepackage[shortlabels]{enumitem}
+\usepackage{ragged2e}
+
+
+%\let\OLDthebibliography\thebibliography
+%\renewcommand\thebibliography[1]{\OLDthebibliography{#1} \setlength{\parskip}{0pt}\setlength{\itemsep}{0pt plus 0.3ex}}
+
+%\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
+%\renewcommand{\sectionmark}[1]{\markright{\MakeUppercase{#1}}{}}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0cm}
+%\renewcommand{\footrulewidth}{0}
+\usepackage{pdfpages}
+\usepackage{stackrel}
+\usepackage[left=3cm, right=3cm, top=2.5cm, bottom=2.5cm]{geometry}
+\newtheorem{exemplo}{Exemplo}
+\newtheorem{definicao}{Definição}
+\newtheorem{teorema}{Teorema}
+\cfoot{{\fontsize{10pt}{\baselineskip}\selectfont \textbf{8\textsuperscript{o} MCSul / VIII SEMENGO - Universidade Federal do Rio Grande}}}
+
+
+
+%%%%%
+%tira os numeros da frente do autor
+\makeatletter 
+\renewcommand\@biblabel[1]{}
+\makeatother
+%%
+
+
+\begin{document}
+\pretolerance10000
+
+
+\begin{figure}
+\centering
+\vspace{-1cm}
+\begin{minipage}[c]{\textwidth}
+\centering
+    \includegraphics[width=6.2in]{cabecalho.eps}
+\end{minipage}
+\end{figure}
+
+
+
+\begin{center}
+\fontsize{16pt}{\baselineskip}\selectfont 
+\textbf{{ANAIS DO 8\textsuperscript{o} MCSUL / VIII SEMENGO\\GUIA DE SUBMISSÃO PARA AUTORES}}
+\end{center}
+\vspace{-0.9cm}
+% \begin{center}
+% \vspace{0.5cm}
+% \textbf{\large{\textit{TÍTULO DO TRABALHO EM INGLÊS}}}
+% \end{center}
+
+\begin{flushright}
+Nome do Autor(a)\footnote{Título acadêmico, instituição e endereço de correio eletrônico.}
+
+Nome(s) do(s) Coautor(es)  \footnote{Título acadêmico, instituição e endereço de correio eletrônico.}
+
+\end{flushright}
+
+\begin{flushleft}
+{\small \setstretch{0.5} \justify
+\textbf{Resumo:} O resumo deverá compreender, de forma concisa, a temática abordada e apresentar em sua estrutura os objetivos, bem como a metodológica aplicada, e uma prévia dos resultados alcançados. Deve ser escrito em parágrafo simples, justificado, com fonte 10 e Arial. O resumo deve ter entre 200 e 300 palavras. Logo após o resumo, até cinco palavras-chave devem destacar de modo claro a temática do artigo.
+
+\vspace{0.3cm}
+
+\noindent\textbf{Palavras-chave:} Palavra-chave. Palavra-chave. Palavra-chave. Palavra-chave. Palavra-chave.}
+\end{flushleft}
+
+
+% \noindent\textbf{Abstract:} O resumo em inglês apresenta-se logo após o resumo em português. Sugere-se encaminhar o texto para ser traduzido por um profissional. Caso o artigo esteja em inglês, deve haver uma versão do título, resumo e palavras-chave em português ou espanhol.
+% \vspace{0.3cm}
+
+% \noindent\textbf{Keywords:} Keywords. Keywords. Keywords. Keywords. Keywords.}
+
+\newpage
+ \onehalfspacing
+\section{Introdução}
+
+ {\fontsize{12pt}{\baselineskip}\selectfont
+ 
+\hspace{0.5cm}O artigo não precisa, necessariamente, contar com títulos que dividam ou subdividam sua estrutura, embora seja recomendado. Caso os autores optem por utilizar títulos e subtítulos, eles devem ser numerados desde a introdução.
+
+A introdução é o texto de abertura do artigo. Deve mostrar a relevância do problema científico que motivou a realização do trabalho para área, apresentar a finalidade e os objetivos do trabalho proposto, destacando o aspecto inédito do trabalho e sua contribuição para área, bem como outras questões relevantes que explorem a temática abordada. Portanto, segue uma estrutura que permita delinear o assunto foco do trabalho, as referências que dão embasamento à discussão do tema, a justificativa para a escolha do tema e da importância do trabalho, o problema, os objetivos e o método utilizado. 
+
+Quanto à formatação do corpo de texto emprega-se fonte 12 Arial, com espaçamento 1,5 entrelinhas e alinhamento justificado. 
+
+Os anais do 8\textsuperscript{o} MCSUL e VIII SEMENGO serão publicados em formato digital (PDF - Portable Document Format). Os artigos devem ser formatados estritamente de acordo com as instruções aqui fornecidas. 
+
+Artigos completos devem conter até $15$ páginas, incluindo Tabelas e Figuras. Os arquivos não devem ultrapassar 2MB.
+
+
+\section{Seções}
+\label{secoes}
+
+\hspace{0.5cm}Seções e seus títulos são declaradas na forma usual do \LaTeX a partir dos seguintes comandos:
+
+\begin{verbatim}
+    \section
+    \subsection
+    \subsubsection
+    \paragraph
+\end{verbatim}
+
+\section{Citações}
+\hspace{0.5cm}As citações seguem o padrão APA\footnote{http://linorg.usp.br/CTAN/biblio/bibtex/contrib/apacite/apacite.pdf} (\textit{American Psychological Association}). Estas podem ser feitas pela utilização do comando \verb|\cite{}| como usual. O modelo irá produzir a citação na forma (Autor, Ano). Para produzir a citação na forma Autor(Ano) o comando  \verb|\citeA{}| deve usado.
+
+Assim os números de cada citação são automaticamente organizados conforme o estilo do modelo. Por exemplo:
+
+\begin{verbatim}
+    "... deformation with a lateral resolution of the order of 100 nm
+    \cite{Mizuuchi2005,Nakanishi2007}.  The recent development of 
+    compact coherent EUV laser sources, \citeA{Sch2000} has opened ..."
+\end{verbatim}
+gera o texto da seguinte forma:
+
+... deformation with a lateral resolution of the order of 100 nm \cite{Nakanishi2007},\break \cite{Mizuuchi2002}. The recent development of compact coherent EUV laser sources, \citeA{scht2000} has opened ...
+
+Texto exemplo para citações.
+
+Using synchrotron radiation Gabor and Fourier holograms have been demonstrated \cite{Mizuuchi2003}
+ with spatial resolution below 100 nm at SXR wavelengths.  Compact EUV sources based on high harmonic generation (HHG) were also used to demonstrate table-top in-line EUV holography with a spatial resolution of 7.9 m  and 0.8 m.  Time resolved holographic imaging, that exploits the short pulsewidth of the HHG sources, was also implemented to study the ultrafast dynamics of surface deformation with a lateral resolution of the order of 100 nm \cite{Mizuuchi2005,Nakanishi2007}.  The recent development of compact coherent EUV laser sources, \citeA{scht2000} has opened new opportunities for the implementation of novel imaging schemes with nanometer-scale resolution that fit on a table-top \cite{Mizuuchi2003,scht2000}. In this paper, we present a proof of principle experiment in which we demonstrate that three dimensional imaging in a volume may be obtained from a single high numerical  aperture (NA) hologram obtained with a table top EUV laser. Gabor holograms were numerically reconstructed over a range of image planes by sweeping the propagation distance. This numerical \nobreak{sectioning} technique for holography is verified to produce a robust three dimension image of a test object.  
+
+\section{Equações}
+As equações são criadas pela utilização do ambiente tradicional \LaTeX:
+
+\begin{verbatim}
+    \begin{equation}
+        \label{eqn_exemplo}
+        x = \sum\limits_{i=0}^{z} 2^{i}Q
+    \end{equation}
+\end{verbatim}
+o que produz:
+
+\begin{equation}
+     \label{eqn_exemplo}
+      x = \sum\limits_{i=0}^{z} 2^{i}Q
+\end{equation}
+
+Utilize o ambiente \verb|displaymath| caso não deseje numeração de alguma equação. Quando alguma referência for feita a qualquer equação esta deve fazer a indexação no próprio texto pelo comando \verb|\ref{}| entre parênteses, precedido da sigla "Eq.", conforme a seguir:
+
+\begin{verbatim}
+    ... de acordo com a Eq.(\ref{eqn_exemplo}).
+\end{verbatim}
+o que produz:
+
+"... de acordo com a Eq.(\ref{eqn_exemplo})."
+
+
+\subsection{Equações Multilinhas}
+
+O uso de equações multilinhas é exemplificado a seguir:
+
+\begin{verbatim}
+\setlength{\arraycolsep}{0.0em}
+  \begin{eqnarray}
+  Z&{}={}&x_1 + x_2 + x_3 + x_4 + x_5 + x_6  \nonumber \\
+  &&+a + b\\
+  &&+{}a + b\\
+  &&{}+a + b\\
+  &&{+}\:a + b
+  \end{eqnarray}
+\setlength{\arraycolsep}{5pt}
+\end{verbatim}
+
+O que produz:
+
+\setlength{\arraycolsep}{0.0em}
+\begin{eqnarray}
+Z&{}={}&x_1 + x_2 + x_3 + x_4 + x_5 + x_6  \nonumber \\
+&&+a + b\\
+&&+{}a + b\\
+&&{}+a + b\\
+&&{+}\:a + b
+\end{eqnarray}
+\setlength{\arraycolsep}{5pt}
+
+\subsection{Outras formas de Equações}
+
+As equações ou variáveis matemáticas podem ser utilizadas em linha de texto. Para tanto a sintaxe se apresenta da seguinte forma:
+
+\begin{verbatim}
+"Sendo $X_1, X_2, \ldots, X_n$ uma sequência de variáveis independentes e
+identicamente distribuídas aleatóriamente com $\text{E}[X_i] = \mu$ e
+$\text{Var}[X_i] = \sigma^2 < \infty$, e sendo..."
+\end{verbatim}
+
+A qual produz o parágrafo a seguir:\\
+
+
+"Sendo $X_1, X_2, \ldots, X_n$ uma sequência de variáveis independentes e identicamente distribuídas aleatóriamente com $\text{E}[X_i] = \mu$ e $\text{Var}[X_i] = \sigma^2 < \infty$, e sendo
+\begin{equation}
+S_n = \frac{X_1 + X_2 + \cdots + X_n}{n}
+      = \frac{1}{n}\sum_{i}^{n} X_i
+\label{eq:refname1}
+\end{equation}
+
+denotam seu significado. Então, quando $n$ tende ao infinito, as veriáveis aleatórias $\sqrt{n}(S_n - \mu)$ convergem em uma distribuição normal $\mathcal{N}(0, \sigma^2)$. Isto é apresentado na Eq.(\ref{eq:refname1})"\\
+
+
+
+\begin{equation}
+ \frac{\partial T}{\partial t} =\kappa \big(\frac{\partial^2T}{\partial x^2}+\frac{\partial^2T}{\partial y^2} \big) 
+ \label{eq:refname2}
+\end{equation}
+
+Ou mesmo a Eq.(\ref{eq:refname3}):
+
+\begin{equation}
+  \vec{F}=\mathbf{m} \frac{d \vec{v}}{dt} + \vec{v}\frac{dm}{dt} 
+  \label{eq:refname3}
+\end{equation}
+
+\begin{subequations}
+\begin{equation}
+  \operatorname{min}_{a,b,c} 
+  \frac{1}{2}\mathbf{w}^{T}\mathbf{w} + C \sum_{i=1}^{l}\xi_{i}
+  \label{eq:refname4a}
+\end{equation}    
+\begin{equation}
+  y_{i}\left(\mathbf{w}^{T}\phi(x_{i})+b\right)
+  \label{eq:refname4b}
+\end{equation}
+\end{subequations}
+
+Podendo usar subequações para um conjunto de equações do mesmo grupo, como a Eq.(\ref{eq:refname4a}) e (\ref{eq:refname4b}), por exemplo.
+
+A sintaxe para produzir o conjunto de Equações anterior é dada por:
+
+\begin{verbatim}
+
+\begin{equation}
+\frac{\partial T}{\partial t} =\kappa \big(\frac{\partial^2T}
+{\partial x^2}+\frac{\partial^2T}{\partial y^2} \big) 
+ \label{eq:refname2}
+\end{equation}
+
+Ou mesmo a Eq.(\ref{eq:refname3}):
+
+\begin{equation}
+  \vec{F}=\mathbf{m} \frac{d \vec{v}}{dt} + \vec{v}\frac{dm}{dt} 
+  \label{eq:refname3}
+\end{equation}
+
+\begin{subequations}
+\begin{equation}
+  \operatorname{min}_{a,b,c} 
+  \frac{1}{2}\mathbf{w}^{T}\mathbf{w} + C \sum_{i=1}^{l}\xi_{i}
+  \label{eq:refname4a}
+\end{equation}    
+\begin{equation}
+  y_{i}\left(\mathbf{w}^{T}\phi(x_{i})+b\right)
+  \label{eq:refname4b}
+\end{equation}
+\end{subequations}
+
+\end{verbatim}
+
+Lembrando que se você \emph{nomear} todas suas equações, a indexação fica muito mais fácil no momento em que as mesmas precisam ser citadas.
+Outra observação importante: \textit{\textbf{as linhas de comandos desde quando se inicia a inserção de uma equação até quando se finaliza, NÃO PODEM APRESENTAR LINHAS EM BRANCO DE UMA LINHA DE COMANDO PARA A OUTRA.}}
+
+\section{Estruturas Flutuantes}
+\subsection{Figuras}
+Os autores devem ter em mente que todo tipo de estrutura flutuante, seja figura ou tabela deve estar o mais próximo de sua referência no texto possível. Em \LaTeX pode-se dar prioridades diferentes no posicionamento destas, através das letras \textit{h, t, b, p}, as quais signficam \textit{here} (aqui), \textit{top} (topo), \textit{bottom} (base) e \textit{page} (página). Estas letras deve ser colocadas imediatamente ao lado do comando de inserção do elemento flutuante. O padrão de formatação \LaTeX automaticamente tenta colocar estes elementos de forma a deixá-los próximos de suas referências no texto. Estes comando são utilizados para casos em que o autor não esteja satisfeito com o posicionamento automático.
+
+A inserção de uma figura, por exemplo, no "topo" da página como posição preferencial é feita a partir dos seguintes comandos (usuais em \LaTeX). A Fig.(\ref{fig_env1}) é um exemplo de inserção.
+
+\begin{verbatim}
+    
+    \begin{figure}[t]
+        \centering
+        \includegraphics[width=21pc]{mouse}
+        \caption{(a) Diagrama do aparato experimental.}
+        \label{fig_env1}
+    \end{figure}
+    
+\end{verbatim}
+
+O que produz a figura no artigo. Detalhes como: ajustar por largura, ou por escala, ou por medidas específicas estão na documentação e manual do \LaTeX.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=21pc]{mouse}
+\caption{\fontsize{10pt}{\baselineskip}\selectfont Diagrama do aparato experimental.}
+\label{fig_env1}
+\end{figure}
+
+As figuras podem ser inseridas lado a lado, dependendo da organização das informações.
+
+Os seguintes comandos exemplificam a organização das figuras \textit{Lado a Lado} com única legenda:
+
+\begin{verbatim}
+    
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.6]{mouse}
+\quad
+\includegraphics[scale=0.2]{mouse}
+\caption{Firuras lado-a-lado com mesma legenda}
+\label{fig:lado_a_lado}
+\end{figure}
+
+\end{verbatim}
+
+Os comandos anteriores produzem a Fig.(\ref{fig:lado_a_lado}).
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{mouse}
+\quad
+\includegraphics[scale=0.5]{mouse}
+\caption{\fontsize{10pt}{\baselineskip}\selectfont Figuras lado-a-lado com mesma legenda}
+\label{fig:lado_a_lado}
+\end{figure}
+
+
+Ainda, figuras com legendas diferentes também são uma opção, podendo ser colocadas a partir dos seguintes comandos, conforme Fig.(\ref{fig:lado_a_lado}).
+
+A referência cruzada das figuras no texto é feita a partir da referência das mesmas através do comando \verb|\ref{nome do rótulo}|. O rótulo da Figura é definido pelo comando \verb|\label{}|, conforme pode ser observado na sequência de comandos anteriores, para a inserção da figura.
+
+\subsection{Tabelas}
+
+As tabelas podem ser trabalhadas de maneira similar às figuras, apenas com algumas pequenas diferenças. Construir tabelas no ambiente \LaTeX é, a primeira vista, uma tarefa um tanto complexa. No entanto, existem sites e/ou suplementos para serem utilizados no \textit{Microsoft Excell}, por exemplo, os quais, a partir de uma tabela construída em um ambiente "amigável" pode ser "traduzida" para um código a ser usado em \LaTeX. Um editor de tabelas \emph{online} para \LaTeX\ é, por exemplo, o Tables Generator\footnote{http://www.tablesgenerator.com}.
+
+Exemplos de geração de tabelas incluem o seguinte código:
+
+\begin{verbatim}
+
+\begin{table}[htbp]
+\centering
+\caption{Funções de Forma para Elementos Quadráticos}
+\begin{tabular}{ccc}
+\hline
+local node & $\{N\}_m$ & $\{\Phi_i\}_m$ $(i=x,y,z)$ \\
+\hline
+$m = 1$ & $L_1(2L_1-1)$ & $\Phi_{i1}$ \\
+$m = 2$ & $L_2(2L_2-1)$ & $\Phi_{i2}$ \\
+$m = 3$ & $L_3=4L_1L_2$ & $\Phi_{i3}$ \\
+\hline
+\end{tabular}
+  \label{tab:Funções-Forma}
+\end{table}
+
+\end{verbatim}
+
+O resultado da sequência anteior é apresentado na Tab.\ref{tab:Funções-Forma}.
+
+\begin{table}[htbp]
+\small
+\centering
+\caption{\small Funções de Forma para Elementos Quadráticos}
+\begin{tabular}{ccc}
+\hline
+local node & $\{N\}_m$ & $\{\Phi_i\}_m$ $(i=x,y,z)$ \\
+\hline
+$m = 1$ & $L_1(2L_1-1)$ & $\Phi_{i1}$ \\
+$m = 2$ & $L_2(2L_2-1)$ & $\Phi_{i2}$ \\
+$m = 3$ & $L_3=4L_1L_2$ & $\Phi_{i3}$ \\
+\hline
+\end{tabular}
+  \label{tab:Funções-Forma}
+\end{table}
+
+A referência cruzada das tabelas no texto é feita a partir da citação das mesmas através do comando \verb|\ref{nome do rótulo}|. O rótulo da Tabela é definido pelo comando \verb|\label{}|, conforme pode ser observado na sequência de comandos anteriores, para a inserção da tabela.
+
+\section{Listas}
+
+\subsection{Itens}
+
+As listas de itens podem ser colocadas através dos comandos \break \verb|\begin{itemize}| $ \ldots $ \verb|\end{itemize}|, ou \verb|\begin{enumerate}| $ \ldots $ \verb|\end{enumerate}|  como segue:
+
+
+
+Para o caso em que se deseja utilizar a listagem por categoria alfabética automática, o comando conforme a seguir é utilizado (é necessário, para isto, incluir o pacote \break \verb|\usepackage[shortlabels]{enumitem}| no preâmbulo):
+
+\begin{verbatim}
+    
+\begin{enumerate}[a)] 
+\item Lorem ipsum dolor sit amet...
+\item Praesent vitae nulla varius...
+\item Praesent quis erat eleifend...
+\item Mauris facilisis odio eu ...
+\item Curabitur convallis odio...
+\end{enumerate}
+
+\end{verbatim}
+
+tendo como resultado:
+
+\begin{enumerate}[a)] 
+\item Lorem ipsum dolor sit amet...
+\item Praesent vitae nulla varius...
+\item Praesent quis erat eleifend...
+\item Mauris facilisis odio eu ...
+\item Curabitur convallis odio...
+\end{enumerate}
+
+Ou em alíneas maiúsculas:
+
+\begin{verbatim}
+    
+\begin{enumerate}[A)]
+\item Lorem ipsum dolor sit amet...
+\item Praesent vitae nulla varius...
+\item Praesent quis erat eleifend...
+\item Mauris facilisis odio eu ...
+\item Curabitur convallis odio...
+\end{enumerate}
+
+\end{verbatim}
+
+\begin{enumerate}[A)]   
+\item Lorem ipsum dolor sit amet...
+\item Praesent vitae nulla varius...
+\item Praesent quis erat eleifend...
+\item Mauris facilisis odio eu ...
+\item Curabitur convallis odio...
+\end{enumerate}
+%\end{enumerate}
+
+Ou ainda, em números romanos:
+
+\begin{verbatim}
+    
+\begin{enumerate}[i.]
+\item Lorem ipsum dolor sit amet...
+\item Praesent vitae nulla varius...
+\item Praesent quis erat eleifend...
+\item Mauris facilisis odio eu ...
+\item Curabitur convallis odio...
+\end{enumerate}
+
+\end{verbatim}
+
+\begin{enumerate}[i.]
+\item Lorem ipsum dolor sit amet...
+\item Praesent vitae nulla varius...
+\item Praesent quis erat eleifend...
+\item Mauris facilisis odio eu ...
+\item Curabitur convallis odio...
+\end{enumerate}
+
+E ainda, a opção sem nenhum indicador de sequência:
+
+\begin{verbatim}
+    
+\begin{itemize} 
+\item Lorem ipsum dolor sit amet...
+\item Praesent vitae nulla varius...
+\item Praesent quis erat eleifend...
+\item Mauris facilisis odio eu ...
+\item Curabitur convallis odio...
+\end{itemize}
+
+\end{verbatim}
+
+\begin{itemize} 
+\item Lorem ipsum dolor sit amet...
+\item Praesent vitae nulla varius...
+\item Praesent quis erat eleifend...
+\item Mauris facilisis odio eu ...
+\item Curabitur convallis odio...
+\end{itemize}
+
+%**********************************************************************************
+\section*{Agradecimentos}
+\hspace{0.5cm}Agradecimentos e outras seções não numeradas são criadas pela utilização de um asterisco posterior ao comando, \verb|\section*{Agradecimentos}|.
+
+OBS: Parte dos textos utilizados neste modelo para exemplificar seções, quadros, tabelas, etc., foram gentilmente cedidos pela Revista Mundi\footnote{http://periodicos.ifpr.edu.br}, do IFPR.
+
+%**********************************************************************************
+\section*{Referencial bibliográfico}
+\hspace{0.5cm}As referências bibliográficas são geradas automaticamente pela utilização do pacote \emph{apacite}. É uma seção não numerada conforme apresentado a seguir:
+
+
+\bibliographystyle{apacite}
+\bibliography{referencial}
+
+
+\end{document}
