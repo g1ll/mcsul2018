@@ -118,41 +118,47 @@ Biserni, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-G.~Gonzales%
-\ \protect \BOthers {.}}{%
-G.~Gonzales%
-\ \protect \BOthers {.}}{%
+Gonzales%
+, dos Santos%
+, Isoldi%
+, Estrada%
+\BCBL {}\ \BBA {} Rocha%
+}{%
+Gonzales%
+, dos Santos%
+\BCBL {}\ \protect \BOthers {.}}{%
 {\protect \APACyear {2015}}%
 }]{%
-Gonzales2015energy}
+Gonzales2015cilamce}
 \APACinsertmetastar {%
-Gonzales2015energy}%
+Gonzales2015cilamce}%
 \begin{APACrefauthors}%
-Gonzales, G.%
-, Estrada, E\BPBI d\BPBI S.%
-, Emmendorfer, L.%
-, Isoldi, L.%
-, Xie, G.%
-, Rocha, L.%
-\BCBL {}\ \BBA {} dos Santos, E.%
+Gonzales, G\BPBI V.%
+, dos Santos, E\BPBI D.%
+, Isoldi, L\BPBI A.%
+, Estrada, E\BPBI d\BPBI S\BPBI D.%
+\BCBL {}\ \BBA {} Rocha, L\BPBI A\BPBI O.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2015}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {{A comparison of simulated annealing schedules for
-  constructal design of complex cavities intruded into conductive walls with
-  internal heat generation}} {{A comparison of simulated annealing schedules
-  for constructal design of complex cavities intruded into conductive walls
-  with internal heat generation}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {{Constructal design of isothermal double-T shaped cavity
+  by means of Simulated Annealing}} {{Constructal design of isothermal double-T
+  shaped cavity by means of Simulated Annealing}}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Energy}{93}{}{372--382}.
+\BIn{} \APACrefbtitle {Proceedings of the XXXVI Iberian Latin-American Congress
+  on Computational Methods in Engineering - CILAMCE2015.} {Proceedings of the
+  xxxvi iberian latin-american congress on computational methods in engineering
+  - cilamce2015.}
+\newblock
+\APACaddressPublisher{Rio de Janeiro, Brazil}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-G\BPBI V.~Gonzales%
+Gonzales%
 \ \protect \BOthers {.}}{%
-G\BPBI V.~Gonzales%
+Gonzales%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2017}}%
 }]{%
@@ -180,11 +186,11 @@ Gonzales, G\BPBI V.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-G\BPBI V.~Gonzales%
+Gonzales%
 , dos Santos%
 \BCBL {}\ \BBA {} Neto%
 }{%
-G\BPBI V.~Gonzales%
+Gonzales%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2018}}%
 }]{%
@@ -210,6 +216,40 @@ Gonzales, G\BPBI V.%
 \newblock
 \APACjournalVolNumPages{Revista Mundi Engenharia, Tecnologia e
   Gest{\~{a}}o}{3}{2}{85--104}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gonzales%
+, Estrada%
+\BCBL {}\ \protect \BOthers {.}}{%
+Gonzales%
+, Estrada%
+\BCBL {}\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+Gonzales2015energy}
+\APACinsertmetastar {%
+Gonzales2015energy}%
+\begin{APACrefauthors}%
+Gonzales, G\BPBI V.%
+, Estrada, E\BPBI d\BPBI S.%
+, Emmendorfer, L.%
+, Isoldi, L.%
+, Xie, G.%
+, Rocha, L.%
+\BCBL {}\ \BBA {} dos Santos, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{A comparison of simulated annealing schedules for
+  constructal design of complex cavities intruded into conductive walls with
+  internal heat generation}} {{A comparison of simulated annealing schedules
+  for constructal design of complex cavities intruded into conductive walls
+  with internal heat generation}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Energy}{93}{}{372--382}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -272,6 +312,60 @@ Lorenzini, G.%
   Cavities Embedded in a Conducting Medium}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Electronic Packaging}{133}{4}{041008}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Reddy%
+\ \BBA {} Gartling%
+}{%
+Reddy%
+\ \BBA {} Gartling%
+}{%
+{\protect \APACyear {1994}}%
+}]{%
+Reddy1994}
+\APACinsertmetastar {%
+Reddy1994}%
+\begin{APACrefauthors}%
+Reddy, J\BPBI N.%
+\BCBT {}\ \BBA {} Gartling, D\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1994}.
+\newblock
+\APACrefbtitle {The Finite Element Method in Heat Transfer and Fluid Dynamics}
+  {The finite element method in heat transfer and fluid dynamics}.
+\newblock
+\APACaddressPublisher{New York}{McGrawHill}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Storn%
+\ \BBA {} Price%
+}{%
+Storn%
+\ \BBA {} Price%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+Storn1997}
+\APACinsertmetastar {%
+Storn1997}%
+\begin{APACrefauthors}%
+Storn, R.%
+\BCBT {}\ \BBA {} Price, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Differential Evolution - A Simple and Efficient
+  Heuristic for Global Optimization over Continuous Spaces}} {{Differential
+  Evolution - A Simple and Efficient Heuristic for Global Optimization over
+  Continuous Spaces}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Global Optimization}{11}{4}{341--359}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

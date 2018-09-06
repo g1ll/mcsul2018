@@ -36,7 +36,6 @@
 \usepackage[shortlabels]{enumitem}
 \usepackage{ragged2e}
 
-
 %\let\OLDthebibliography\thebibliography
 %\renewcommand\thebibliography[1]{\OLDthebibliography{#1} \setlength{\parskip}{0pt}\setlength{\itemsep}{0pt plus 0.3ex}}
 
@@ -98,8 +97,7 @@ Antônio J. Silva Neto\footnote{Doutor, Universidade do Estado do Rio de Janeiro
 
 \begin{flushleft}
 {\small \setstretch{0.5} \justify
-\textbf{Resumo:} Neste trabalho é investigado o desempenho do algoritmo de Evolução Diferencial aplicado à otimização geométrica de um problema de transferência de calor. O problema consiste em uma cavidade em forma de Duplo-T inserida em um sólido com geração de calor constante e uniforme. As laterias do sólido estão em condições adiabáticas e o calor gerado só pode ser removido pela cavidade, a qual é mantida a uma temperatura prescrita. Portanto, a geometria da cavidade influência diretamente a performance térmica do problema. A definição dos graus de liberdade e restrições do problema é realizada através do método de Constructal Design. A otimização geométrica é realizada através do algoritmo de Evolução Diferencial. Neste estudo, são avaliados os parâmetros do algoritmo, tais como o operador de mutação, taxa de cruzamento, fator de amplificação do cálculo diferencial e número de iterações ou avaliação da função objetivo. O número de iteração está relacionado aos parâmetros que configuram o número de gerações e quantidade de indivíduos na população.  O objetivo principal do trabalho é avaliar os parâmetros do algoritmo de Evolução Diferencial e qual a influência na correta reprodução dos efeitos dos graus de liberdade estudados sobre a geometria ótima e performance térmica do problema. Os resultados indicam como mais adequadas as configuração dos parâmetros de taxa de cruzamento e fator de amplificação respectivamente com os seguintes valores 0,7 e 1,5. Estes parâmetros, em conjunto com operador de mutação identificado como de/rand/1/bin, tornaram os resultados do algoritmo mais robustos e necessitando de um menor número de avaliações da função objetivo para a obtenção das geometrias ótimas. A principal contribuição do trabalho é a recomendação de um conjunto de parâmetros adequados que adaptem o algoritmo de Evolução Diferencial ao problema estudado, tornando o algoritmo mais efetivo e robusto para a otimização geométrica do problema estudado.
-%contagem de palavras: 298/300
+\textbf{Resumo:} Neste trabalho é investigado o desempenho do algoritmo de Evolução Diferencial aplicado à otimização geométrica de um problema de transferência de calor. O problema consiste em uma cavidade em forma de Duplo-T inserida em um sólido com geração de calor constante e uniforme. As laterias do sólido estão em condições adiabáticas e o calor gerado só pode ser removido pela cavidade, a qual é mantida a uma temperatura prescrita. Portanto, a geometria da cavidade afeta diretamente a performance térmica do problema. A definição dos graus de liberdade e restrições do problema de otimização é realizada através do método de Constructal Design. O algoritmo de Evolução Diferencial é empregado no processo de otimização. Neste estudo, são avaliados os parâmetros do algoritmo, tais como o operador de mutação, taxa de cruzamento, fator de amplificação do cálculo diferencial e número de iterações ou avaliação da função objetivo. O número de iteração está relacionado aos parâmetros que configuram o número de gerações e quantidade de indivíduos na população.  O objetivo principal do trabalho é avaliar os parâmetros do algoritmo de Evolução Diferencial e qual a influência na correta reprodução dos efeitos dos graus de liberdade estudados sobre a geometria ótima e performance térmica do problema. A principal contribuição do trabalho é a recomendação de um conjunto de parâmetros adequados que adaptem o algoritmo de Evolução Diferencial ao problema estudado. Os resultados indicam como mais influentes os parâmetros de taxa de cruzamento e fator de amplificação, sendo mais adequados os  respectivos valores de 0,7 e 1,5. Estes parâmetros tornaram os resultados do algoritmo ED mais robustos e necessitando de um menor número de avaliações da função objetivo para a obtenção das geometrias ótimas.
 
 \vspace{0.3cm}
 
@@ -117,15 +115,15 @@ Antônio J. Silva Neto\footnote{Doutor, Universidade do Estado do Rio de Janeiro
 
  {\fontsize{12pt}{\baselineskip}\selectfont}
  
-\hspace{0.5cm}A pesquisa em cavidades resfriadoras têm início no trabalho de \citeA{Biserni2004}, onde são propostas as formas elementares C e T. Neste trabalho \cite{Biserni2004}, o método de Constructal Design é aplicado para a definição do problema de otimização, assim como a avaliação da influência da geometria sobre a minimização da resistência térmica entre a cavidade e o sólido. O método Constructal Desing é baseado na Teoria Constructal \cite{Bejan}, a qual defende que um princípio físico, a Lei Constructal, determina as formas e estruturas presentes na natureza, sendo a geometria o resultado da otimização da passagem do fluxo em sistemas de escoamento. A Lei Constructal afirma que "Para um sistema de escoamento, animado ou inanimado, evoluir no tempo (sobreviver) é preciso que sua forma e estrutura também evoluam de forma a facilitar a passagem do fluxo"        \cite{Bejan}. Portanto, a geometria é o resultado de um processo de otimização da passagem do escoamento. É importante salientar que o método de Constructal Design (CD) não é o método de otimização. O CD determina os graus de liberdade, restrições e espaço de busca do problema para a avaliação da geometria. Para a otimização geométrica são aplicados métodos de otimização como a Busca Exaustiva ou métodos heurísticas como o Algoritmos Genéticos (AG) e Recozimento Simulado (RS) \cite{Lorenzini2014,Gonzales2015energy}.
+\hspace{0.5cm}A pesquisa em cavidades resfriadoras têm início no trabalho de \citeA{Biserni2004}, onde são propostas as formas elementares C e T. Neste trabalho \cite{Biserni2004}, o método de Constructal Design é aplicado para a definição do problema de otimização, assim como a avaliação da influência da geometria sobre a minimização da resistência térmica entre a cavidade e o sólido. O método Constructal Desing é baseado na Teoria Constructal \cite{Bejan}, a qual defende que um princípio físico, a Lei Constructal, determina as formas e estruturas presentes na natureza, sendo a geometria o resultado da otimização da passagem do fluxo em sistemas de escoamento. A Lei Constructal afirma que "Para um sistema de escoamento, animado ou inanimado, evoluir no tempo (sobreviver) é preciso que sua forma e estrutura também evoluam de forma a facilitar a passagem do fluxo"        \cite{Bejan}. Portanto, a geometria é o resultado de um processo de otimização da passagem do escoamento. É importante salientar que o método de Constructal Design (CD) não é o método de otimização. O CD determina os graus de liberdade, restrições e espaço de busca do problema para a avaliação da geometria. Para a otimização geométrica são aplicados métodos de otimização como a Busca Exaustiva ou métodos heurísticos baseados em processos estocásticos, como o Algoritmo Genético (AG) ou o método de Recozimento Simulado (RS) \cite{Lorenzini2014,Gonzales2015energy}.
 
 \citeA{Biserni2004} concluiu que a cavidade em forma de T é mais eficiente que a primeira forma elementar em C, pois consegue adentrar melhor no domínio computacional investigado. A partir desta observação, formas mais complexas são investigadas na literatura recente \cite{Biserni2007,Lorenzini2011,Lorenzini2014,Biserni2017,Xie2010}. Por exemplo, no trabalho de \citeA{Lorenzini2011} a cavidade proposta em forma de Y, foi até 66\% mais eficiente que a forma elementar T. Portanto, na literatura recente, é possível constatar que formas mais complexas possuem um maior desempenho na minimização da resistência térmica entre o sólido e a cavidade, para o mesmo tipo de problema e mantendo as mesmas restrições. Entretanto, quanto maior a complexidade da cavidade maior é esforço computacional necessário no processo de otimização geométrica, principalmente quando o método de otimização empregado é o método de Busca Exaustiva (BE), quando todas as possibilidades são simuladas. Neste sentido, com a proposta de minimização do esforço computacional e possibilidade de investigar outras características do problema, métodos heurísticos são utilizados no processo de otimização \cite{Lorenzini2014,Gonzales2015energy,Gonzales2017,Biserni2017}.
 
 O uso de métodos heurísticos requer a configuração de parâmetros que controlam o comportamento destes métodos durante o processo de busca pela solução ótima. No trabalho de \citeA{Gonzales2015energy} foi empregado o algoritmo de Recozimento Simulado (RS) para a otimização geométrica da cavidade em forma de Y. Este estudo mostrou como um parâmetro de configuração do método pode influenciar os resultados. O parâmetro analisado foi a função que controla o decaimento da temperatura do RS durante as iterações do algoritmo. Diferentes parâmetros foram investigados e identificados aqueles que levaram ao melhor ou pior desempenho. O parâmetro identificado como $Fast$, por exemplo, apresentou os piores resultados e influenciaria negativamente a avaliação geométrica caso seus resultados fossem utilizados. 
 
-No trabalho de \cite{Gonzales2017} foram comparadas duas diferentes meta-heurísticas, RS e Luus-Jakoola (LJ), e também diferentes versões destes métodos, variando seus parâmetros. Este estudo compara estatisticamente o desempenho dos algorítimos em encontrar a geometria ótima na otimização da cavidade em forma de Duplo-T. Neste estudo, o algoritmo RS, com a função de decaimento de temperatura híbrida identificada como $BoltzExp$, apresenta os melhores resultados entre os métodos investigados. No entanto, no trabalho de \citeA{Gonzales2018}, a mesma análise estatística em encontrar a geometria ótima para o mesmo problema investigado em \cite{Gonzales2017}, foi realizada entre os algortimos de Evolução Diferencial (ED) e RS. Neste estudo, os resultados do algoritmo ED foram superiores aos resultados do algoritmo RS.
+No trabalho de \cite{Gonzales2017} foram comparadas duas diferentes meta-heurísticas, RS e Luus-Jakoola (LJ), e também diferentes versões destes métodos, variando seus parâmetros. Este estudo compara estatisticamente o desempenho dos algorítimos em encontrar a geometria ótima na otimização da cavidade em forma de Duplo-T. Neste estudo, o algoritmo RS, com a função híbrida de decaimento de temperatura, identificada como $BoltzExp$, apresentou os melhores resultados entre os métodos investigados. No trabalho de \citeA{Gonzales2018}, foi realizada uma comparação entre os algortimos de Evolução Diferencial (ED) e RS, baseada na análise estatística em encontrar a geometria ótima para o problema investigado em \cite{Gonzales2017}. Neste estudo, os resultados do algoritmo ED foram superiores aos resultados do algoritmo RS.
 
-Neste artigo, será investigada a aplicação do algoritmo de ED na otimização geométrica da cavidade em forma de Duplo-T. Serão comparados os resultados de diferentes versões do algoritmo ED, configurados com diferentes parâmetros, assim como com diferentes avaliações da função objetivo. 
+Neste artigo, será investigada a aplicação do algoritmo de ED na otimização geométrica da cavidade em forma de Duplo-T. Serão comparados os resultados de diferentes versões do algoritmo ED, configurados com diferentes parâmetros, assim como, com diferentes iterações. Portanto, diferente dos estudos da literatura recente relatados \cite{Gonzales2017, Gonzales2018}, este trabalho propõe uma análise estatística focada na reprodução dos efeitos da geometria ótima sobre a resistência térmica do domínio computacional, e não apenas na obtenção da configuração geométrica ótima ou minimização da resisência térmica.
 
 \section{Modelagem Matemática e Numérica}
 \label{modelo}
@@ -165,7 +163,7 @@ onde as variáveis adimensionais são dadas por:
 \tilde{x},\tilde{y},\tilde{H}_{0},\tilde{H}_{1},\tilde{H}_{2},\tilde{L}_{0},\tilde{L}_{1},\tilde{L}_{2},\tilde{H},\tilde{L},\tilde{S}_{1} = \frac{x,y,H_{0},H_{1},H_{2},L_{0},L_{1},L_{2},H,L,S_{1}}{A^{1/2}}\label{vadim}
 \end{equation}
 
-Por razões de brevidade, as equações das condições de contorno de fluxo nulo nas superfícies externas ao sólido, bem como, as equações de condições de contorno de temperatura mínima nas paredes da cavidade não são apresentadas, podendo ser vistas no trabalho de  \cite{Gonzales2}.
+Por razões de brevidade, as equações das condições de contorno de fluxo nulo nas superfícies externas ao sólido, bem como, as equações de condições de contorno de temperatura mínima nas paredes da cavidade não são apresentadas, podendo ser vistas no trabalho de  \cite{Gonzales2015cilamce}.
 
 A forma adimensional das Eqs. \ref{area_total}-\ref{area_cavidade} são representadas pelas seguintes equações:
 
@@ -188,40 +186,143 @@ O objetivo é minimizar o máximo excesso de temperatura representado pela segui
 \tilde{\theta}_{max}=\frac{\theta_{max}-\theta_{min}}{q^{'''}\cdot\frac{A}{k}}\label{fo}
 \end{equation}
 
-Para a determinação da $\tilde{\theta}_{max}$ é necessário a otimização de cinco graus de liberdade ($H/L$, $H_{0}/L_{0}$, $H_{1}/L_{1}$, $H_{2}/L_{2}$ e $S_{1}/H_{0}$) submetidos as restrições de área da cavidade ($\phi_{c}$,$\phi_{1}$ and $\phi_{2}$) e de área total do sólido. Neste artigo, serão otimizados apenas quatro graus de liberdade  ($H/L$, $H_{0}/L_{0}$, $H_{1}/L_{1}$, $H_{2}/L_{2}$ e $S_{1}/H_{0}$).  Em todos os casos a razão $H/L$ será mantida constante ( $H/L$ = 1,0).
+Para a determinação da $\tilde{\theta}_{max}$ é necessário a otimização de cinco graus de liberdade ($H/L$, $H_{0}/L_{0}$, $H_{1}/L_{1}$, $H_{2}/L_{2}$ e $S_{1}/H_{0}$) submetidos as restrições de área da cavidade ($\phi_{c}$,$\phi_{1}$ and $\phi_{2}$) e de área total do sólido.
 
-A função representada pela Eq. \ref{fo} é resolvida numericamente através da resolução da Eq. \ref{calor} para a determinação dos os campos de temperatura em todo o domínio computacional para diferentes configurações de ($H/L$, $H_{0}/L_{0}$, $H_{1}/L_{1}$, $H_{2}/L_{2}$ e $S_{1}/H_{0}$) e calculando o $\tilde{\theta}_{max}$ para minimizar o seu valor através da variação da configuração geométrica. A solução numérica é dada pela aplicação do método de Elementos Finitos (FEM), baseado em elementos triangulares, desenvolvido no ambiente MATLAB$^{\tiny ®}$, com o pacote PDE (partial-differential-equations) toolbox \citeA{Reddy, Matlab}. A malha é não-uniforme em ambos eixos $x$ e $y$, e varia de uma geometria para outra. O tamanho apropriado da malha é determinado por sucessivos refinamentos de malha (h-adaptativo), aumentando o número de elementos quatro vezes a cada refinamento. Por questões de simplicidade, o teste de malha independente pode ser verificado no trabalho de \cite{Gonzales2}..
+A função representada pela Eq. \ref{fo} é resolvida numericamente através da resolução da Eq. \ref{calor} para a determinação dos os campos de temperatura em todo o domínio computacional para diferentes configurações de ($H/L$, $H_{0}/L_{0}$, $H_{1}/L_{1}$, $H_{2}/L_{2}$ e $S_{1}/H_{0}$) e calculando o $\tilde{\theta}_{max}$ para minimizar o seu valor através da variação da configuração geométrica. A solução numérica é dada pela aplicação do método de Elementos Finitos (FEM), baseado em elementos triangulares, desenvolvido no ambiente MATLAB$^{\tiny ®}$, com o pacote PDE (partial-differential-equations) toolbox \citeA{Reddy1994}. A malha é não-uniforme em ambos eixos $x$ e $y$, e varia de uma geometria para outra. O tamanho apropriado da malha é determinado por sucessivos refinamentos de malha (h-adaptativo), aumentando o número de elementos quatro vezes a cada refinamento. Por questões de simplicidade, o teste de malha independente pode ser verificado no trabalho de \cite{Gonzales2015cilamce}.
 
 \section{Otimização Geométrica}
 \label{opt}
-\hspace{0.5cm}A otimização geométrica...
+\hspace{0.5cm}A otimização geométrica da cavidade em forma de Duplo-T é realizada através da variação das variáveis que definem a geometria da cavidade e, de acordo com o método CD, este processo é sujeito ás restrições. Entretanto, a cavidade estudada neste trabalho possui nove variáveis ($H$, $L$, $H_{0}$, $L_{0}$, $H_{1}$, $L_{1}$, $H_{2}$, $L_{2}$ e $S1$) e quatro restrições ($A$, $\phi_{c}$, $\phi_{1}$ e $\phi_{2}$), então são necessários cinco graus de liberdade (GL) para completar as equações e determinar a geometria ($H/L$, $H_{0}/L_{0}$, $H_{1}/L_{1}$, $H_{2}/L_{2}$ e $S_{1}/H_{0}$). O processo de otimização está concentrado em quatro GLs ( $H_{0}/L_{0}$, $H_{1}/L_{1}$, $H_{2}/L_{2}$ and $S_{1}/H_{0}$), sendo $H/L$ variado em diferentes valores entre $0.03< H/L >30$ e as demais restrições mantidas em $A$ = 1, $\phi_{c}$ = 0,1; $\phi_{1}$ = 0,015; $\phi_{2}$ = 0,015. Em razão da brevidade, as equações que demonstram a definição das variáveis em função dos graus de liberdade podem ser verificados no trabalho de \citeA{Gonzales2015cilamce}.
 
-\subsection{Constructal Design}
-\label{ed}
-\hspace{0.5cm}A otimização geométrica...
+%\subsection{Constructal Design}
+%\label{ed}
+%\hspace{0.5cm}A otimização geométrica...
 
 
 \subsection{Evolução Diferencial}
 \label{ed}
-\hspace{0.5cm}A otimização geométrica...
+\hspace{0.5cm}O algoritmo de Evolução Diferencial (ED) é uma meta-heurística baseada em populações e computação evolutiva. Foi proposto originalmente no trabalho de \citeA{Storn1997}, principalmente para espaços contínuos. O algoritmo ED foi projetado para ter habilidade com funções de custo não lineares, não diferenciáveis e multimodal \cite{Storn1997}. A vantagem deste método está em possuir poucos parâmetros de controle, pode ser adaptado a computação paralela e possui boas propriedades de convergência \cite{Storn1997}. O algorítimo é baseado em dois laços aninhados. O primeiro laço determina as gerações. O secundo laço, interno ao primeiro, é responsável pela aplicação de operadores diferenciais na população de soluções, com o objetivo de gerar uma nova população melhorada. Cada membro da população de soluções representa uma solução factível do problema. Esta solução deve ser um vetor com tamanho igual a dimensão do problema. O tamanho da população ($NP$), é definida a priori e não muda durante o processo de otimização, segundo a definição clássica. Para a geração da primeira população, é necessário uma distribuição uniforme cobrindo todo o espaço de busca. Logo, em cada geração e para cada vetor solução, um novo vetor é criado através da perturbação de um vetor, escolhido aleatoriamente, com a diferença entre dois outros vetores, também escolhidos de forma aleatória. O novo vetor gerado é chamado de vetor mutante. Este processo representa o operador de mutação do algorítimo ED, o qual é aplicado para todos os indivíduos da população $x_{i,G}$, $i = 1,2,3...NP$. A seguinte equação representa o operador de mutação:
+
+\begin{equation}
+v_{i,G+1} = x_{r_{1},G} + F . (x_{r_{2},G} - x_{r_{3},G}) \label{trial}
+\end{equation}
+
+onde os índices $r_{1}$, $r_{2}$, $r_{3}$ $\in$ \{1,2,3 ...NP\}, são aleatórios, inteiros e mutuamente diferentes. Os valores de $r_{1}$, $r_{2}$ e $r_{3}$ devem ser diferentes do índice do indivíduo da iteração atual. O parâmetro $F$ é um fator constate de valor real $in [0,2]$ que controla a amplitude da variação diferencial $(x_{r_{2},G} - x_{r_{3},G})$.
+
+O operador de mutação apresentado é chamado pelos autores de rand/1/bin. Um segundo tipo de operador de mutação é utilizado e identificado pelos autores como best/2/bin \cite{Storn1997}. Neste operador são usados dois vetores a mais e a melhor solução. O uso de mais dois vetores aumenta a diversidade da solução mutada \cite{Storn1997}. A equação abaixo representa o operador de mutação best/2/bin:
+
+\begin{equation}
+v_{i,G+1} = x_{r_{best},G} + F . (x_{r_{1},G} + x_{r_{2},G} - x_{r_{3},G} - x_{r_{4},G}) \label{trial2}
+\end{equation}
+
+
+Além dos operadores apresentados, o algoritmo ED possui o operador de cruzamento. Este operador aumenta a diversidade da solução mutante e cria o vetor candidato a ser integrado na nova população, o vetor $trial$. O vetor $trial$ é aceito como um novo membro da população substituindo o indivíduo atual na iteração $i$, apenas se a solução é melhor. Outros dois parâmetros configuram o comportamento do ED, sendo eles o tamanho da população (NP) e a quantidade de gerações (G). O critério de parada do algorítimo é determinado a priori pelo número total de gerações. Esses dois parâmetros configuram a quantidade de vezes em que a função objetivo precisa ser executada,  estando portanto, diretamente relacionados ao esforço computacional requisitado pelo algoritmo. Por razões de simplificação, maiores detalhes sobre o algorítimo ED podem ser verificados em \cite{Storn1997}.
+
+Neste trabalho, quatro diferentes versões do algorítimo ED foram executados com diferentes parâmetros de mutação, cruzamento (CR) e fator de amplificação $F$. Além destes parâmetros, para cada versão do algoritmo, foram configurados diferentes combinações de tamanho da população e número de gerações  a serem processadas. A versão nomeada como DE1 possui a taxa de cruzamento  configurada igual a 0,7 e fator $F$ igual a 1,5. A segunda versão, chamada DE2, possui $CR$ igual a 0,9 e $F$ igual a 2. As versões DE3 and D4, possuem respectivamente as mesmas configurações das versões DE1 e DE2. Contudo, DE3 e DE4, possuem o operador de mutação best/2/bin. Abaixo, a tabela apresenta todas as variações do algoritmo ED estudadas neste trabalho.
+
+\begin{table}[htbp]
+\small
+\centering
+\caption{\small Configurações das Diferentes Versões do Algorimo ED Analisadas}
+\begin{tabular}{cccc}
+\hline
+Algoritmo & Mutação & $CR$ & $F$ \\
+\hline
+ED1 & $rand/1/bin$ & $0,7$ & $1,5$  \\
+ED2 & $rand/1/bin$ & $0,9$ & $2$  \\
+ED3 & $best/2/bin$ & $0,9$ & $2$  \\
+ED4 & $best/2/bin$ & $0,7$ & $1,5$  \\
+\hline
+\end{tabular}
+  \label{tab:algos}
+\end{table}
+
+A tabela a seguir apresenta as diferentes combinações de tamanho da população e gerações configuradas para cada versão do algoritmo ED.
+
+\begin{table}[htbp]
+\small
+\centering
+\caption{\small Combinações dos Parâmetros de Tamanho da População $(NP)$ e Número de Gerações $(G)$}
+\begin{tabular}{ccc}
+\hline
+$(NP)$ & $(G)$ & Total de Iterações \\
+\hline
+$5$ & $10$ & $50$	\\
+$10$ & $10$ & $100$	\\
+$10$ & $15$ & $150$	\\
+$15$ & $20$ & $300$	\\
+\hline
+\end{tabular}
+  \label{tab:popgeracao}
+\end{table}
 
 \section{Resultados}
 \label{opt}
-\hspace{0.5cm}A otimização geométrica...
+\hspace{0.5cm}Os resultados da otimização geométrica de 4 Graus de Liberdade (GL) ($H_{0}/L_{0}$, $H_{1}/L_{1}$, $H_{2}/L_{2}$ e $S_{1}/H_{0}$) para diferentes valores de $H/L$, são apresentados na Figura \ref{destdinner}. Foram executadas 30 rodadas de cada versão do algoritmo de ED para diferentes combinações de $NP$ e $G$, sendo registrados os valores de $({\theta}_{max})_{4\times m}$ encontrados durante cada processo de otimização. 
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=.91]{imgs/plot_de1_rdata_std.png}
+\quad
+\includegraphics[scale=.91]{imgs/plot_de2_rdata_std.png}
+\quad
+\includegraphics[scale=.91]{imgs/plot_de3_rdata_std.png}
+\quad
+\includegraphics[scale=.91]{imgs/plot_de4_rdata_std.png}
+
+\caption{\fontsize{10pt}{\baselineskip}\selectfont Média e Desvio Padrão do Efeito de $H/L$ sobre $({\theta}_{max})_{4\times m}$ registrados por diferentes verões do algoritmo ED com diferentes combinações de população e gerações:a)ED1 b)ED2 c) ED3 d)ED4.}
+\label{destdinner}
+\end{figure}
+
+A Fig. \ref{destdinner} apresenta a média e o desvio padrão em relação ao efeito de $H/L$ sobre $({\theta}_{max})_{4\times m}$. Na Fig. \ref{destdinner}, é possível observar que para as razãoes de $H/L>0.5$, todos os algoritmos apresentam um desvio padrão muito pequeno, independente inclusive do número de iterações ($NP \times G$). Este comportamento é devido ao espaço de busca do problema, que nesta região ($H/L>0.5$) possui poucos mínimos locais, facilitando a convergência do algoritmo, independente de sua configuração. Este resultado é importante, pois indica que, a configuração do algoritmo e o esforço computacional pode ser adaptado de acordo com o espaço de busca. 
+Para razões de $H/L\leqslant0.5$, todas as versões do algoritmo ED analisadas neste estudo obtiveram alguma dificuldade em convergir para o ótimo, apresentando erros identificados pelo desvio padrão. Nestes casos, a influência dos parâmetros de configuração do algoritmo ED se torna mais evidente. A Fig. \ref{destdinner} apresenta, em cada gráfico, uma comparação dentro de cada versão do algoritmo ED, variando apenas o número de iterações ($NP \times G$). Portanto, é possível notar a influência dos parâmetros de $NP$ e $G$ na redução do desvio padrão. Porém, obviamente, as melhores configurações destes dois parâmetros são aquelas que demandam um maior poder computacional. Entretando, é preciso destacar que para as versões ED1 e ED4, possuem uma menor diferença entre o desvio padrão dos algoritmos com 50 iterações para os demais. O aumento no tamanho da população e número de gerações para 300 iterações, reduz significativamente o desvio padrão nestas versões do algorimo ED, como pode ser observado nas Figs. \ref{destdinner}a) e \ref{destdinner}b). Por outro lado, nas Figs. \ref{destdinner}c) e \ref{destdinner}d) a diferenção no desvio padrão é maior e o aumento do número de iterações também não representa diminuição significativa do desvio padrão.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[scale=.91]{imgs/plot_deall50_rdata_std_003-05.png}
+\quad
+\includegraphics[scale=.91]{imgs/plot_deall100_rdata_std_003-05.png}
+\quad
+\includegraphics[scale=.91]{imgs/plot_deall150_rdata_std_003-05.png}
+\quad
+\includegraphics[scale=.91]{imgs/plot_deall300_rdata_std_003-05.png}
+
+\caption{\fontsize{10pt}{\baselineskip}\selectfont Média e Desvio Padrão do Efeito de $H/L$ sobre $({\theta}_{max})_{4\times m}$ para $H/L\leqslant0.5$, registrados por diferentes verões do algoritmo ED com diferentes combinações de população e gerações: a)$NP=5$, $G=10$ b)$NP=10$, $G=10$ c) $NP=10$, $G=15$ d) $NP=15$, $G=20$.}
+\label{stddeall}
+\end{figure}
+
+A Figura \ref{stddeall} apresenta a comparação entre as diferentes versões do algortmo ED para cada combinação dos parâmetros de  ($NP \times G$). Em quatro gráficos com a mesma escala para $({\theta}_{max})_{4\times m}$, os resultados de diferentes algoritmos com os limites de iterações (50,100,150 e 300) são representados pelas figuras Fig.\ref{stddeall} a) a Fig.\ref{stddeall} d), respectivamente. Na Fig. \ref{stddeall} é possível observar que os algoritmos ED2 e ED3 possuem os maiores valores de desvio padrão para $({\theta}_{max})_{4\times m}$, sendo que os resultados destes algoritmos para 100 iterações são próximos aos valores de desvio padrão dos algoritmos de ED1 e ED4 com 50 iterações. O mesmo caso pode ser observado comparando os gráficos da Fig. \ref{stddeall} c) em relação a Fig. \ref{stddeall} b), assim como, entre as Fig. \ref{stddeall} d) e Fig. \ref{stddeall} c), ou seja, os algoritmos ED1 e ED4 possuem maior eficiência que os algoritmos ED2 e ED3 com um menor número de iterações. Em alguns casos, os resultados do desvio padrão de $({\theta}_{max})_{4\times m}$ do algoritmo ED2, mesmo com 300 iterações ($H/L=0.5$), o grau de dispersão é maior do que os resultados dos algoritmos ED1 e ED4, limitados as 150 iterações ($NP=10$ e $G=15$). O incremento no número de itereções dos aloritmos através das configurações dos parâmetros de população ($NP$) e gerações ($G$) contribui significativamente para a diminuição da dispersão dos resultados, principalmente entre 50 a 150 iterações. A diferença do desvio padrão entre 150 e 300 iterações diminui, principalmente para os algoritmos ED1 e ED4. A partir de 300 itereções o custo computacional não é justificavel e não apresentaria um impacto relevante na dispersão dos resultados para as versões ED1 e ED4.  
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=.91]{imgs/plot_deall150_rdata_std_h0l0.png}
+\quad
+\includegraphics[scale=.91]{imgs/plot_deall150_rdata_std_h2l2.png}
+\quad
+\includegraphics[scale=.91]{imgs/plot_deall150_rdata_std_h1l1.png}
+\quad
+\includegraphics[scale=.91]{imgs/plot_deall150_rdata_std_s1h0.png}
+
+\caption{\fontsize{10pt}{\baselineskip}\selectfont Média e Desvio Padrão do Efeito de $H/L$ sobre a geometria ótima, registrados por diferentes versões do algoritmo ED com limite de 150 iterações: a) Efeito de $H/L$ sobre ${(H_{0}/L_{0})_{4\times o}}$, b) Efeito de $H/L$ sobre ${(H_{2}/L_{2})_{3\times o}}$, c) Efeito de $H/L$ sobre ${(H_{1}/L_{1})_{2\times o}}$, d) Efeito de $H/L$ sobre ${(S_{1}/H_{0})_{o}}$.}
+\label{stddegls}
+\end{figure}
+
+\hspace{0.5cm} A Figura \ref{stddegls} apresenta o resultado do efeito de $H/L$ sobre a configuração geométrica da cavidade Duplo-T, representada pelos Graus de Liberdade ( ${(H_{0}/L_{0})_{4\times o}}$,  ${(H_{2}/L_{2})_{3\times o}}$, ${(H_{1}/L_{1})_{2\times o}}$ e ${(S_{1}/H_{0})_{o}}$). Na Fig \ref{stddegls}(a), é possível observar a dispersão e a média do efeito de  $H/L$ sobre o ${(H_{0}/L_{0})_{4\times o}}$. Para este resultado, não é possível afirmar com certezar qual o melhor algoritmo, visto que a dispersão é muito semelhante e aumenta de acordo com o aumento de $H/L$ e a magnitude de ${(H_{0}/L_{0})_{4\times o}}$. Neste caso, o desvio padrão é levemente menor para os algoritmos ED1 e ED4, mas não reprenta uma diferença significativa que pudesse alterar a interpretação dos resultados e da avaliação da geometria ótima. Entretanto, para o efeito de $H/L$ sobre ${(H_{2}/L_{2})_{3\times o}}$	, os algoritmos ED2 e ED3 apresentaram uma grande dispersão nos resultados, como pode ser observado na Fig. \ref{stddegls}(b). Esta situação apresenta a incapacidade dessas versões do algoritmo ED em escapar de mínimos locais.  A Fig. \ref{stddegls}(c) também apresenta uma maior dispersão dos resutlados do algoritmo ED2 para a reprodução do efeito de $H/L$ sobre ${(H_{1}/L_{1})_{2\times o}}$. Analisando os resultados para  ${(H_{2}/L_{2})_{3\times o}}$ e ${(H_{2}/L_{2})_{3\times o}}$, os algoritmos ED1 e ED4 novamente aparecem com o melhor desempenho, ou seja, sem dispersão nos resultados. O algorimo ED3 também apresenta um bom resultado para a otimização de ${(H_{1}/L_{1})_{2\times o}}$, como mostra a Fig.\ref{stddegls}(c). O efeito de $H/L$ sobre ${(S_{1}/H_{0})_{o}}$ é apresentado na Fig.\ref{stddegls}(d), através dos resultados apresentados pelas diferentes versões do algoritmo ED, não é possível determinar qual foi o mais robusto. Todas as versões apresentam uma dispersão semelhante nos resultados para este grau de liberdade, com uma pequena redução da dispersão dos resultados dos algoritmos ED1 e ED4, para poucos valores de $H/L$.
+
 
 \section{Conclusão}
 \label{opt}
-\hspace{0.5cm}A otimização geométrica...
+\hspace{0.5cm} O presente trabalho analisou a aplicação do algoritmo de Evolução Diferencial (ED), combinado ao método de Constructal Design, para a otimização geométrica da cavidade em forma de Duplo-T. O método de Constructal Design determina o problema de otimização e orienta a avaliação geométrica, empregando restrições e definindo os Graus de Liberdade (GL) que compõem o espaço de busca.  O problema possui cinco Graus de Liberdade, sendo otimizados quatro GL ($H_{0}/L_{0}$,  $H_{2}/L_{2}$, $H_{1}/L_{1}$ e $S_{1}/H_{0}$) para diferentes valores da razão $H/L$. Este estudo avaliou o desempenho de diferentes configurações do algorimo de ED para a determinação do efeito de $H/L$ sobre a geometria ótima e o máximo excesso de temperatura quatro vezes minimizado  $({\theta}_{max})_{4\times m}$.
+
+A avaliação do algoritmo de ED foi concentrada nos parâmetros que configuram o comportamento do método. Portanto, foram empregadas diferentes versões do algoritmo com variações nos parâmetros de Mutação, Cruzamento ($CR$), Fator de Amplificação Diferencial ($F$), Tamanho da População ($NP$) e Número de Gerações ($G$). Quatro diferentes versões do algortimo ED foram avaliadas (ED1, ED2, ED3 e ED4), representadas na Tab. \ref{tab:algos}. Também foi analisado o número de iterações do algoritmo, representado pelos parâmetros $NP$ e $G$, de acordo com a Tab. \ref{tab:popgeracao}. Fora executadas trinta rodadas de cada versão do algoritmo ED para os diferentes limites de iterações. Os resultados da otimização foram registrados e utilizados para a análise através da média e desvio padrão dos valores da geometria ótima e temperatura máxima mínima em função da razão $H/L$.
+
+Ao final deste estudo, e de acordo com os resultados obtidos, é possível obeservar a influência que os parâmetros do algoritmo de otimização podem ter sobre a avaliação geométrica. Sendo necessário, portanto, a especialização destes parâmetros ao problema de interesse. Para o problema de otimização da cavidade em forma de Duplo-T, os resultados indicam que as verões ED1 e ED4 obtiveram os melhores resultados. Estas versões apresentaram, na grande maioria dos casos investigados, a menor dispersão e portanto a reprodução mais adequada do efeito de $H/L$ sobre o desempenho térmico da cavidade. As configurações de parâmetros em comum entre estas duas versões do ED ($CR=0.7$, $F=1.5$), indicam que estes são os parâmetros mais apropriados ao problema de interesse.
 
 %**********************************************************************************
 \section*{Agradecimentos}
-\hspace{0.5cm}Agradecimentos e outras seções não numeradas são criadas pela utilização de um asterisco posterior ao comando, \verb|\section*{Agradecimentos}|.
-
-OBS: Parte dos textos utilizados neste modelo para exemplificar seções, quadros, tabelas, etc., foram gentilmente cedidos pela Revista Mundi\footnote{http://periodicos.ifpr.edu.br}, do IFPR.
-
+\hspace{0.5cm}G. V. Gonzales agradece o IF-SUL e o  PPGMC-FURG pelo apoio. E. D. dos Santos agradece o suporte financeiro do CNPq. Antônio J. Silva Neto agradece o suporte financeiro da FAPERJ, CNPq e CAPES.
 %**********************************************************************************
 
 \bibliographystyle{apacite}
 \bibliography{referencial}
-
 \end{document}
