@@ -21,7 +21,8 @@ Bejan, A.%
   Cooling a Heat Generating Volume.} {Constructal-theory network of conducting
   path for cooling a heat generating volume.}{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Int. J. Heat Mass Transfer}{40}{}{799-816}.
+\APACjournalVolNumPages{International Journal of Heat and Mass
+  Transfer}{40}{}{799-816}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -188,7 +189,7 @@ Gonzales, G\BPBI V.%
 \bibitem [\protect \citeauthoryear {%
 Gonzales%
 , dos Santos%
-\BCBL {}\ \BBA {} Neto%
+\BCBL {}\ \BBA {} Silva~Neto%
 }{%
 Gonzales%
 \ \protect \BOthers {.}}{%
@@ -200,7 +201,7 @@ Gonzales2018}%
 \begin{APACrefauthors}%
 Gonzales, G\BPBI V.%
 , dos Santos, E\BPBI D.%
-\BCBL {}\ \BBA {} Neto, A\BPBI J\BPBI S.%
+\BCBL {}\ \BBA {} Silva~Neto, A\BPBI J.%
 \end{APACrefauthors}%
 \unskip\
 \newblock

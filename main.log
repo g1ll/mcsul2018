@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.1)  8 SEP 2018 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.1)  22 SEP 2018 03:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1131,9 +1131,9 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 16.41594pt on input line 114.
 
-Underfull \hbox (badness 1259) in paragraph at lines 120--121
-\T1/phv/m/n/12 investigadas na literatura recente []Biserni, Rocha, Stanescu, &
- Lorenzini, 2007;
+Underfull \hbox (badness 2005) in paragraph at lines 120--121
+\T1/phv/m/n/12 computacional investigado distribuíndo de forma mais homogênea o
+ campo de
  []
 
 [2]
@@ -1148,7 +1148,7 @@ File: imgs/duplo_t.png Graphic file (type png)
 <use imgs/duplo_t.png>
 Package pdftex.def Info: imgs/duplo_t.png  used on input line 134.
 (pdftex.def)             Requested size: 310.50357pt x 232.87598pt.
- [4 <./imgs/duplo_t.png>]
+ [4 <./imgs/duplo_t.png>] [5]
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 191.
 
@@ -1167,99 +1167,99 @@ LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 LaTeX Warning: Command \textregistered invalid in math mode on input line 191.
 
 Missing character: There is no ® in font cmr8!
-[5]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 202.
+(Font)              scaled to size 13.67995pt on input line 203.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 202.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 203.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 202.
- [6]
-Underfull \hbox (badness 2111) in paragraph at lines 219--220
+(Font)              scaled to size 13.67995pt on input line 203.
+[6]
+Underfull \hbox (badness 2111) in paragraph at lines 220--221
 []\T1/phv/m/n/12 Além dos operadores apresentados, o algoritmo ED possui o oper
 ador de
  []
 
-[7]
-<imgs/plot_de1_rdata_std.png, id=43, 216.81pt x 216.81pt>
+[7] [8]
+<imgs/plot_de1_rdata_std.png, id=48, 216.81pt x 216.81pt>
 File: imgs/plot_de1_rdata_std.png Graphic file (type png)
 <use imgs/plot_de1_rdata_std.png>
-Package pdftex.def Info: imgs/plot_de1_rdata_std.png  used on input line 265.
-(pdftex.def)             Requested size: 197.2974pt x 197.2974pt.
-<imgs/plot_de2_rdata_std.png, id=44, 216.81pt x 216.81pt>
+Package pdftex.def Info: imgs/plot_de1_rdata_std.png  used on input line 266.
+(pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
+<imgs/plot_de2_rdata_std.png, id=49, 216.81pt x 216.81pt>
 File: imgs/plot_de2_rdata_std.png Graphic file (type png)
 <use imgs/plot_de2_rdata_std.png>
-Package pdftex.def Info: imgs/plot_de2_rdata_std.png  used on input line 267.
-(pdftex.def)             Requested size: 197.2974pt x 197.2974pt.
-<imgs/plot_de3_rdata_std.png, id=45, 216.81pt x 216.81pt>
+Package pdftex.def Info: imgs/plot_de2_rdata_std.png  used on input line 268.
+(pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
+<imgs/plot_de3_rdata_std.png, id=50, 216.81pt x 216.81pt>
 File: imgs/plot_de3_rdata_std.png Graphic file (type png)
 <use imgs/plot_de3_rdata_std.png>
-Package pdftex.def Info: imgs/plot_de3_rdata_std.png  used on input line 269.
-(pdftex.def)             Requested size: 197.2974pt x 197.2974pt.
-<imgs/plot_de4_rdata_std.png, id=46, 216.81pt x 216.81pt>
+Package pdftex.def Info: imgs/plot_de3_rdata_std.png  used on input line 270.
+(pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
+<imgs/plot_de4_rdata_std.png, id=51, 216.81pt x 216.81pt>
 File: imgs/plot_de4_rdata_std.png Graphic file (type png)
 <use imgs/plot_de4_rdata_std.png>
-Package pdftex.def Info: imgs/plot_de4_rdata_std.png  used on input line 271.
-(pdftex.def)             Requested size: 197.2974pt x 197.2974pt.
- [8] [9 <./imgs/plot_de1_rdata_std.png> <./imgs/plot_de2_rdata_std.png> <./imgs
-/plot_de3_rdata_std.png> <./imgs/plot_de4_rdata_std.png>]
-<imgs/plot_deall50_rdata_std_003-05.png, id=62, 216.81pt x 216.81pt>
+Package pdftex.def Info: imgs/plot_de4_rdata_std.png  used on input line 272.
+(pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
+ [9 <./imgs/plot_de1_rdata_std.png> <./imgs/plot_de2_rdata_std.png> <./imgs/plo
+t_de3_rdata_std.png> <./imgs/plot_de4_rdata_std.png>]
+<imgs/plot_deall50_rdata_std_003-05.png, id=61, 216.81pt x 216.81pt>
 File: imgs/plot_deall50_rdata_std_003-05.png Graphic file (type png)
 <use imgs/plot_deall50_rdata_std_003-05.png>
 Package pdftex.def Info: imgs/plot_deall50_rdata_std_003-05.png  used on input 
-line 282.
-(pdftex.def)             Requested size: 197.2974pt x 197.2974pt.
-<imgs/plot_deall100_rdata_std_003-05.png, id=63, 216.81pt x 216.81pt>
+line 283.
+(pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
+<imgs/plot_deall100_rdata_std_003-05.png, id=62, 216.81pt x 216.81pt>
 File: imgs/plot_deall100_rdata_std_003-05.png Graphic file (type png)
 <use imgs/plot_deall100_rdata_std_003-05.png>
 Package pdftex.def Info: imgs/plot_deall100_rdata_std_003-05.png  used on input
- line 284.
-(pdftex.def)             Requested size: 197.2974pt x 197.2974pt.
-<imgs/plot_deall150_rdata_std_003-05.png, id=64, 216.81pt x 216.81pt>
+ line 285.
+(pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
+<imgs/plot_deall150_rdata_std_003-05.png, id=63, 216.81pt x 216.81pt>
 File: imgs/plot_deall150_rdata_std_003-05.png Graphic file (type png)
 <use imgs/plot_deall150_rdata_std_003-05.png>
 Package pdftex.def Info: imgs/plot_deall150_rdata_std_003-05.png  used on input
- line 286.
-(pdftex.def)             Requested size: 197.2974pt x 197.2974pt.
-<imgs/plot_deall300_rdata_std_003-05.png, id=65, 216.81pt x 216.81pt>
+ line 287.
+(pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
+<imgs/plot_deall300_rdata_std_003-05.png, id=64, 216.81pt x 216.81pt>
 File: imgs/plot_deall300_rdata_std_003-05.png Graphic file (type png)
 <use imgs/plot_deall300_rdata_std_003-05.png>
 Package pdftex.def Info: imgs/plot_deall300_rdata_std_003-05.png  used on input
- line 288.
-(pdftex.def)             Requested size: 197.2974pt x 197.2974pt.
-<imgs/plot_deall150_rdata_std_h0l0.png, id=66, 216.81pt x 216.81pt>
+ line 289.
+(pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
+ [10] [11 <./imgs/plot_deall50_rdata_std_003-05.png> <./imgs/plot_deall100_rdat
+a_std_003-05.png> <./imgs/plot_deall150_rdata_std_003-05.png> <./imgs/plot_deal
+l300_rdata_std_003-05.png>]
+<imgs/plot_deall150_rdata_std_h0l0.png, id=76, 216.81pt x 216.81pt>
 File: imgs/plot_deall150_rdata_std_h0l0.png Graphic file (type png)
 <use imgs/plot_deall150_rdata_std_h0l0.png>
 Package pdftex.def Info: imgs/plot_deall150_rdata_std_h0l0.png  used on input l
-ine 298.
-(pdftex.def)             Requested size: 197.2974pt x 197.2974pt.
-<imgs/plot_deall150_rdata_std_h2l2.png, id=67, 216.81pt x 216.81pt>
+ine 303.
+(pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
+<imgs/plot_deall150_rdata_std_h2l2.png, id=77, 216.81pt x 216.81pt>
 File: imgs/plot_deall150_rdata_std_h2l2.png Graphic file (type png)
 <use imgs/plot_deall150_rdata_std_h2l2.png>
 Package pdftex.def Info: imgs/plot_deall150_rdata_std_h2l2.png  used on input l
-ine 300.
-(pdftex.def)             Requested size: 197.2974pt x 197.2974pt.
-<imgs/plot_deall150_rdata_std_h1l1.png, id=68, 216.81pt x 216.81pt>
+ine 305.
+(pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
+<imgs/plot_deall150_rdata_std_h1l1.png, id=78, 216.81pt x 216.81pt>
 File: imgs/plot_deall150_rdata_std_h1l1.png Graphic file (type png)
 <use imgs/plot_deall150_rdata_std_h1l1.png>
 Package pdftex.def Info: imgs/plot_deall150_rdata_std_h1l1.png  used on input l
-ine 302.
-(pdftex.def)             Requested size: 197.2974pt x 197.2974pt.
-<imgs/plot_deall150_rdata_std_s1h0.png, id=69, 216.81pt x 216.81pt>
+ine 307.
+(pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
+<imgs/plot_deall150_rdata_std_s1h0.png, id=79, 216.81pt x 216.81pt>
 File: imgs/plot_deall150_rdata_std_s1h0.png Graphic file (type png)
 <use imgs/plot_deall150_rdata_std_s1h0.png>
 Package pdftex.def Info: imgs/plot_deall150_rdata_std_s1h0.png  used on input l
-ine 304.
-(pdftex.def)             Requested size: 197.2974pt x 197.2974pt.
- [10] [11 <./imgs/plot_deall50_rdata_std_003-05.png> <./imgs/plot_deall100_rdat
-a_std_003-05.png> <./imgs/plot_deall150_rdata_std_003-05.png> <./imgs/plot_deal
-l300_rdata_std_003-05.png>] [12 <./imgs/plot_deall150_rdata_std_h0l0.png> <./im
-gs/plot_deall150_rdata_std_h2l2.png> <./imgs/plot_deall150_rdata_std_h1l1.png> 
-<./imgs/plot_deall150_rdata_std_s1h0.png>] [13] (./main.bbl
+ine 309.
+(pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
+ [12 <./imgs/plot_deall150_rdata_std_h0l0.png> <./imgs/plot_deall150_rdata_std_
+h2l2.png> <./imgs/plot_deall150_rdata_std_h1l1.png> <./imgs/plot_deall150_rdata
+_std_s1h0.png>] [13] (./main.bbl
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 24.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 25.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 24.
+(Font)              scaled to size 11.39996pt on input line 25.
  [14]) [15] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1268,11 +1268,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  8809 strings out of 494862
  129864 string characters out of 6178947
- 228362 words of memory out of 5000000
+ 226362 words of memory out of 5000000
  11899 multiletter control sequences out of 15000+600000
  53399 words of font info for 76 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 44i,14n,43p,2137b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,14n,43p,1849b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
@@ -1285,16 +1285,15 @@ msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
-vetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8
-a.pfb>
-Output written on main.pdf (15 pages, 962137 bytes).
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
+/uhvro8a.pfb>
+Output written on main.pdf (15 pages, 952997 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 153 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
