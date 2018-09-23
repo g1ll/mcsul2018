@@ -1,56 +1,47 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
-The style file: apacite.bst
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+The style file: xiiiemc.bst
 Database file #1: referencial.bib
-apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 13 entries,
-            6951 wiz_defined-function locations,
-            1367 strings with 13802 characters,
-and the built_in function-call counts, 33030 in all, are:
-= -- 4048
-> -- 276
-< -- 1849
-+ -- 2102
-- -- 26
-* -- 2269
-:= -- 6467
-add.period$ -- 54
+            3271 wiz_defined-function locations,
+            760 strings with 8312 characters,
+and the built_in function-call counts, 10297 in all, are:
+= -- 807
+> -- 434
+< -- 31
++ -- 169
+- -- 153
+* -- 752
+:= -- 1431
+add.period$ -- 41
 call.type$ -- 13
-change.case$ -- 222
-chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 901
-empty$ -- 1053
-format.name$ -- 509
-if$ -- 5861
-int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 0
-newline$ -- 356
-num.names$ -- 104
-pop$ -- 453
+change.case$ -- 117
+chr.to.int$ -- 12
+cite$ -- 13
+duplicate$ -- 822
+empty$ -- 743
+format.name$ -- 194
+if$ -- 2096
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 166
+newline$ -- 76
+num.names$ -- 52
+pop$ -- 356
 preamble$ -- 1
-purify$ -- 52
+purify$ -- 103
 quote$ -- 0
-skip$ -- 1835
+skip$ -- 338
 stack$ -- 0
-substring$ -- 2254
-swap$ -- 480
-text.length$ -- 26
+substring$ -- 468
+swap$ -- 519
+text.length$ -- 28
 text.prefix$ -- 0
-top$ -- 1
-type$ -- 1104
+top$ -- 0
+type$ -- 114
 warning$ -- 0
-while$ -- 171
+while$ -- 66
 width$ -- 0
-write$ -- 478
+write$ -- 179

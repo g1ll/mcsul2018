@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.1)  22 SEP 2018 03:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.1)  23 SEP 2018 00:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -126,14 +126,12 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks21
 \@floatcapt=\box29
 )
-(/usr/share/texlive/texmf-dist/tex/latex/apacite/apacite.sty
-Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count100
-\bibleftmargin=\skip55
-\bibindent=\skip56
-\bibparsep=\skip57
-\bibitemsep=\skip58
-\biblabelsep=\skip59
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip55
+\bibsep=\skip56
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count100
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -665,8 +663,8 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen115
 \extrarowheight=\dimen116
 \NC@list=\toks24
-\extratabsurround=\skip60
-\backup@length=\skip61
+\extratabsurround=\skip57
+\backup@length=\skip58
 )
 \TX@col@width=\dimen117
 \TX@old@table=\dimen118
@@ -678,9 +676,9 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip62
+\multirow@colwidth=\skip59
 \multirow@cntb=\count104
-\multirow@dima=\skip63
+\multirow@dima=\skip60
 \bigstrutjot=\dimen122
 )
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
@@ -700,8 +698,8 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \page@free=\dimen125
 \premulticols=\dimen126
 \postmulticols=\dimen127
-\multicolsep=\skip64
-\multicolbaselineskip=\skip65
+\multicolsep=\skip61
+\multicolbaselineskip=\skip62
 \partial@page=\box31
 \last@line=\box32
 \maxbalancingoverflow=\dimen128
@@ -759,18 +757,18 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 Package caption Info: float package is loaded.
 )
 \c@KVtest=\count115
-\sf@farskip=\skip66
+\sf@farskip=\skip63
 \sf@captopadj=\dimen139
-\sf@capskip=\skip67
-\sf@nearskip=\skip68
+\sf@capskip=\skip64
+\sf@nearskip=\skip65
 \c@subfigure=\count116
 \c@subfigure@save=\count117
 \c@lofdepth=\count118
 \c@subtable=\count119
 \c@subtable@save=\count120
 \c@lotdepth=\count121
-\sf@top=\skip69
-\sf@bottom=\skip70
+\sf@top=\skip66
+\sf@bottom=\skip67
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
@@ -836,10 +834,10 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
 Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
-\beforeepigraphskip=\skip71
-\afterepigraphskip=\skip72
-\epigraphwidth=\skip73
-\epigraphrule=\skip74
+\beforeepigraphskip=\skip68
+\afterepigraphskip=\skip69
+\epigraphwidth=\skip70
+\epigraphrule=\skip71
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrextend.sty
 Package: scrextend 2017/09/07 v3.24 KOMA-Script package (extend other classes w
@@ -860,7 +858,7 @@ LaTeX Info: Redefining \textsubscript on input line 1318.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip75
+\labelindent=\skip72
 \enit@outerparindent=\dimen140
 \enit@toks=\toks26
 \enit@inbox=\box56
@@ -872,20 +870,20 @@ Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\CenteringLeftskip=\skip76
-\RaggedLeftLeftskip=\skip77
-\RaggedRightLeftskip=\skip78
-\CenteringRightskip=\skip79
-\RaggedLeftRightskip=\skip80
-\RaggedRightRightskip=\skip81
-\CenteringParfillskip=\skip82
-\RaggedLeftParfillskip=\skip83
-\RaggedRightParfillskip=\skip84
-\JustifyingParfillskip=\skip85
-\CenteringParindent=\skip86
-\RaggedLeftParindent=\skip87
-\RaggedRightParindent=\skip88
-\JustifyingParindent=\skip89
+\CenteringLeftskip=\skip73
+\RaggedLeftLeftskip=\skip74
+\RaggedRightLeftskip=\skip75
+\CenteringRightskip=\skip76
+\RaggedLeftRightskip=\skip77
+\RaggedRightRightskip=\skip78
+\CenteringParfillskip=\skip79
+\RaggedLeftParfillskip=\skip80
+\RaggedRightParfillskip=\skip81
+\JustifyingParfillskip=\skip82
+\CenteringParindent=\skip83
+\RaggedLeftParindent=\skip84
+\RaggedRightParindent=\skip85
+\JustifyingParindent=\skip86
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
@@ -899,12 +897,12 @@ Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count124
 \calc@Adimen=\dimen141
 \calc@Bdimen=\dimen142
-\calc@Askip=\skip90
-\calc@Bskip=\skip91
+\calc@Askip=\skip87
+\calc@Bskip=\skip88
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count125
-\calc@Cskip=\skip92
+\calc@Cskip=\skip89
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
@@ -968,56 +966,51 @@ LaTeX Warning: Label `opt' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 64.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 63.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 63.
-\c@maskedRefs=\count133
-
-
-Package apacite Warning: No suitable language definition file (brazil.apc) foun
-d.
+(Font)              scaled to size 11.39996pt on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count134
+\scratchcounter=\count133
 \scratchdimen=\dimen153
 \scratchbox=\box59
-\nofMPsegments=\count135
-\nofMParguments=\count136
+\nofMPsegments=\count134
+\nofMParguments=\count135
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count137
+\MPscratchCnt=\count136
 \MPscratchDim=\dimen154
-\MPnumerator=\count138
-\makeMPintoPDFobject=\count139
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
 \everyMPtoPDFconversion=\toks31
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 63.
+LaTeX Info: Redefining \selectfont on input line 64.
 \AtBeginShipoutBox=\box60
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -1066,161 +1059,165 @@ Package epstopdf Info: Source file: <cabecalho.eps>
 (epstopdf)                    size: 84855 bytes
 (epstopdf)             Command: <repstopdf --outfile=cabecalho-eps-converted-to
 .pdf cabecalho.eps>
-(epstopdf)             \includegraphics on input line 71.
+(epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
 <cabecalho-eps-converted-to.pdf, id=1, 1007.765pt x 203.76125pt>
 File: cabecalho-eps-converted-to.pdf Graphic file (type pdf)
 <use cabecalho-eps-converted-to.pdf>
-Package pdftex.def Info: cabecalho-eps-converted-to.pdf  used on input line 71.
+Package pdftex.def Info: cabecalho-eps-converted-to.pdf  used on input line 72.
 
 (pdftex.def)             Requested size: 448.07378pt x 90.59729pt.
 
-Overfull \hbox (4.4953pt too wide) in paragraph at lines 71--72
+Overfull \hbox (4.4953pt too wide) in paragraph at lines 72--73
  [][] 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 72.
+LaTeX Font Info:    Try loading font information for U+msa on input line 73.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 72.
+LaTeX Font Info:    Try loading font information for U+msb on input line 73.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 15.19995pt on input line 76.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <16> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 77.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 15.19995pt on input line 77.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <16> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 15.19995pt on input line 78.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 86.
+(Font)              scaled to size 7.59998pt on input line 87.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 86.
+(Font)              scaled to size 9.49997pt on input line 87.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 86.
+(Font)              scaled to size 6.64998pt on input line 87.
 
-Underfull \hbox (badness 2237) in paragraph at lines 86--86
+Underfull \hbox (badness 2237) in paragraph at lines 87--87
 [][]\T1/phv/m/n/10 Mestre, Instituto Federal Sul-Rio-Grandense - Campus Santana
  do Livramento, RS, Brazil,
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 99.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 100.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 10.40245pt on input line 100.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 101.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.40245pt on input line 101.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 112.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 112.
+(Font)              scaled to size 9.49997pt on input line 113.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 112.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.64998pt on input line 112.
+(Font)              scaled to size 6.64998pt on input line 113.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./cabecalho-eps-converted-
 to.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 114.
+(Font)              scaled to size 16.41594pt on input line 115.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 114.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 115.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 114.
+(Font)              scaled to size 16.41594pt on input line 115.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 119.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 11.39996pt on input line 119.
 
-Underfull \hbox (badness 2005) in paragraph at lines 120--121
+Underfull \hbox (badness 2005) in paragraph at lines 121--122
 \T1/phv/m/n/12 computacional investigado distribuíndo de forma mais homogênea o
  campo de
  []
 
 [2]
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 130.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 131.
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 130.
+(Font)              scaled to size 5.69998pt on input line 131.
 [3]
-<imgs/duplo_t.png, id=21, 722.7pt x 542.025pt>
+<imgs/duplo_t.png, id=22, 722.7pt x 542.025pt>
 File: imgs/duplo_t.png Graphic file (type png)
 <use imgs/duplo_t.png>
-Package pdftex.def Info: imgs/duplo_t.png  used on input line 134.
+Package pdftex.def Info: imgs/duplo_t.png  used on input line 135.
 (pdftex.def)             Requested size: 310.50357pt x 232.87598pt.
  [4 <./imgs/duplo_t.png>] [5]
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 191.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 192.
 
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 191.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 192.
 
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 191.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 192.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 191.
+(Font)              scaled to size 5.69998pt on input line 192.
 
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 191.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 192.
 
 Missing character: There is no ® in font cmr8!
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 203.
+(Font)              scaled to size 13.67995pt on input line 204.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 203.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 204.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 203.
+(Font)              scaled to size 13.67995pt on input line 204.
 [6]
-Underfull \hbox (badness 2111) in paragraph at lines 220--221
+Underfull \hbox (badness 2111) in paragraph at lines 219--220
 []\T1/phv/m/n/12 Além dos operadores apresentados, o algoritmo ED possui o oper
 ador de
  []
 
 [7] [8]
-<imgs/plot_de1_rdata_std.png, id=48, 216.81pt x 216.81pt>
+<imgs/plot_de1_rdata_std.png, id=49, 216.81pt x 216.81pt>
 File: imgs/plot_de1_rdata_std.png Graphic file (type png)
 <use imgs/plot_de1_rdata_std.png>
 Package pdftex.def Info: imgs/plot_de1_rdata_std.png  used on input line 266.
 (pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
-<imgs/plot_de2_rdata_std.png, id=49, 216.81pt x 216.81pt>
+<imgs/plot_de2_rdata_std.png, id=50, 216.81pt x 216.81pt>
 File: imgs/plot_de2_rdata_std.png Graphic file (type png)
 <use imgs/plot_de2_rdata_std.png>
 Package pdftex.def Info: imgs/plot_de2_rdata_std.png  used on input line 268.
 (pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
-<imgs/plot_de3_rdata_std.png, id=50, 216.81pt x 216.81pt>
+<imgs/plot_de3_rdata_std.png, id=51, 216.81pt x 216.81pt>
 File: imgs/plot_de3_rdata_std.png Graphic file (type png)
 <use imgs/plot_de3_rdata_std.png>
 Package pdftex.def Info: imgs/plot_de3_rdata_std.png  used on input line 270.
 (pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
-<imgs/plot_de4_rdata_std.png, id=51, 216.81pt x 216.81pt>
+<imgs/plot_de4_rdata_std.png, id=52, 216.81pt x 216.81pt>
 File: imgs/plot_de4_rdata_std.png Graphic file (type png)
 <use imgs/plot_de4_rdata_std.png>
 Package pdftex.def Info: imgs/plot_de4_rdata_std.png  used on input line 272.
 (pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
  [9 <./imgs/plot_de1_rdata_std.png> <./imgs/plot_de2_rdata_std.png> <./imgs/plo
 t_de3_rdata_std.png> <./imgs/plot_de4_rdata_std.png>]
-<imgs/plot_deall50_rdata_std_003-05.png, id=61, 216.81pt x 216.81pt>
+<imgs/plot_deall50_rdata_std_003-05.png, id=62, 216.81pt x 216.81pt>
 File: imgs/plot_deall50_rdata_std_003-05.png Graphic file (type png)
 <use imgs/plot_deall50_rdata_std_003-05.png>
 Package pdftex.def Info: imgs/plot_deall50_rdata_std_003-05.png  used on input 
 line 283.
 (pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
-<imgs/plot_deall100_rdata_std_003-05.png, id=62, 216.81pt x 216.81pt>
+<imgs/plot_deall100_rdata_std_003-05.png, id=63, 216.81pt x 216.81pt>
 File: imgs/plot_deall100_rdata_std_003-05.png Graphic file (type png)
 <use imgs/plot_deall100_rdata_std_003-05.png>
 Package pdftex.def Info: imgs/plot_deall100_rdata_std_003-05.png  used on input
  line 285.
 (pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
-<imgs/plot_deall150_rdata_std_003-05.png, id=63, 216.81pt x 216.81pt>
+<imgs/plot_deall150_rdata_std_003-05.png, id=64, 216.81pt x 216.81pt>
 File: imgs/plot_deall150_rdata_std_003-05.png Graphic file (type png)
 <use imgs/plot_deall150_rdata_std_003-05.png>
 Package pdftex.def Info: imgs/plot_deall150_rdata_std_003-05.png  used on input
  line 287.
 (pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
-<imgs/plot_deall300_rdata_std_003-05.png, id=64, 216.81pt x 216.81pt>
+<imgs/plot_deall300_rdata_std_003-05.png, id=65, 216.81pt x 216.81pt>
 File: imgs/plot_deall300_rdata_std_003-05.png Graphic file (type png)
 <use imgs/plot_deall300_rdata_std_003-05.png>
 Package pdftex.def Info: imgs/plot_deall300_rdata_std_003-05.png  used on input
@@ -1229,50 +1226,51 @@ Package pdftex.def Info: imgs/plot_deall300_rdata_std_003-05.png  used on input
  [10] [11 <./imgs/plot_deall50_rdata_std_003-05.png> <./imgs/plot_deall100_rdat
 a_std_003-05.png> <./imgs/plot_deall150_rdata_std_003-05.png> <./imgs/plot_deal
 l300_rdata_std_003-05.png>]
-<imgs/plot_deall150_rdata_std_h0l0.png, id=76, 216.81pt x 216.81pt>
+<imgs/plot_deall150_rdata_std_h0l0.png, id=77, 216.81pt x 216.81pt>
 File: imgs/plot_deall150_rdata_std_h0l0.png Graphic file (type png)
 <use imgs/plot_deall150_rdata_std_h0l0.png>
 Package pdftex.def Info: imgs/plot_deall150_rdata_std_h0l0.png  used on input l
-ine 303.
+ine 302.
 (pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
-<imgs/plot_deall150_rdata_std_h2l2.png, id=77, 216.81pt x 216.81pt>
+<imgs/plot_deall150_rdata_std_h2l2.png, id=78, 216.81pt x 216.81pt>
 File: imgs/plot_deall150_rdata_std_h2l2.png Graphic file (type png)
 <use imgs/plot_deall150_rdata_std_h2l2.png>
 Package pdftex.def Info: imgs/plot_deall150_rdata_std_h2l2.png  used on input l
-ine 305.
+ine 304.
 (pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
-<imgs/plot_deall150_rdata_std_h1l1.png, id=78, 216.81pt x 216.81pt>
+<imgs/plot_deall150_rdata_std_h1l1.png, id=79, 216.81pt x 216.81pt>
 File: imgs/plot_deall150_rdata_std_h1l1.png Graphic file (type png)
 <use imgs/plot_deall150_rdata_std_h1l1.png>
 Package pdftex.def Info: imgs/plot_deall150_rdata_std_h1l1.png  used on input l
-ine 307.
+ine 306.
 (pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
-<imgs/plot_deall150_rdata_std_s1h0.png, id=79, 216.81pt x 216.81pt>
+<imgs/plot_deall150_rdata_std_s1h0.png, id=80, 216.81pt x 216.81pt>
 File: imgs/plot_deall150_rdata_std_s1h0.png Graphic file (type png)
 <use imgs/plot_deall150_rdata_std_s1h0.png>
 Package pdftex.def Info: imgs/plot_deall150_rdata_std_s1h0.png  used on input l
-ine 309.
+ine 308.
 (pdftex.def)             Requested size: 212.47234pt x 212.47234pt.
  [12 <./imgs/plot_deall150_rdata_std_h0l0.png> <./imgs/plot_deall150_rdata_std_
 h2l2.png> <./imgs/plot_deall150_rdata_std_h1l1.png> <./imgs/plot_deall150_rdata
-_std_s1h0.png>] [13] (./main.bbl
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 25.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 25.
- [14]) [15] (./main.aux)
+_std_s1h0.png>] [13] (./main.bbl [14]
+Underfull \hbox (badness 1122) in paragraph at lines 89--94
+[]\T1/phv/m/n/12 Lorenzini, G., Biserni, C., Isoldi, L.A., dos Santos, E.D., Ro
+cha, L.A.O., 2011.
+ []
+
+) [15] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8809 strings out of 494862
- 129864 string characters out of 6178947
- 226362 words of memory out of 5000000
- 11899 multiletter control sequences out of 15000+600000
+ 8685 strings out of 494862
+ 128199 string characters out of 6178947
+ 220786 words of memory out of 5000000
+ 11776 multiletter control sequences out of 15000+600000
  53399 words of font info for 76 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 44i,14n,43p,1849b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,14n,43p,2090b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
@@ -1290,7 +1288,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist
 fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
 /uhvro8a.pfb>
-Output written on main.pdf (15 pages, 952997 bytes).
+Output written on main.pdf (15 pages, 944812 bytes).
 PDF statistics:
  153 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream

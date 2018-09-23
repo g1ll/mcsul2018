@@ -1,401 +1,113 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{13}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
 
-\bibitem [\protect \citeauthoryear {%
-Bejan%
-}{%
-Bejan%
-}{%
-{\protect \APACyear {1997}}%
-}]{%
-Bejan}
-\APACinsertmetastar {%
-Bejan}%
-\begin{APACrefauthors}%
-Bejan, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1997}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Constructal-theory Network of Conducting Path for
-  Cooling a Heat Generating Volume.} {Constructal-theory network of conducting
-  path for cooling a heat generating volume.}{\BBCQ}
-\newblock
-\APACjournalVolNumPages{International Journal of Heat and Mass
-  Transfer}{40}{}{799-816}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Bejan(1997)}]{Bejan}
+Bejan, A., 1997.
+\newblock \enquote{Constructal-theory network of conducting path for cooling a
+  heat generating volume.}
+\newblock \emph{International Journal of Heat and Mass Transfer}, Vol.~40, pp.
+  799--816.
 
-\bibitem [\protect \citeauthoryear {%
-Biserni%
-, Dalpiaz%
-, Fagundes%
-\BCBL {}\ \BBA {} Rocha%
-}{%
-Biserni%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2017}}%
-}]{%
-Biserni2017}
-\APACinsertmetastar {%
-Biserni2017}%
-\begin{APACrefauthors}%
-Biserni, C.%
-, Dalpiaz, F\BPBI L.%
-, Fagundes, T\BPBI M.%
-\BCBL {}\ \BBA {} Rocha, L\BPBI A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Constructal design of T-shaped morphing fins coupled
-  with a trapezoidal basement: A numerical investigation by means of Exhaustive
-  Search and Genetic Algorithm}} {{Constructal design of T-shaped morphing fins
-  coupled with a trapezoidal basement: A numerical investigation by means of
-  Exhaustive Search and Genetic Algorithm}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{International Journal of Heat and Mass
-  Transfer}{109}{}{73--81}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Biserni \emph{et~al.}(2017)Biserni, Dalpiaz, Fagundes e
+  Rocha}]{Biserni2017}
+Biserni, C., Dalpiaz, F.L., Fagundes, T.M., Rocha, L.A., 2017.
+\newblock \enquote{{Constructal design of T-shaped morphing fins coupled with a
+  trapezoidal basement: A numerical investigation by means of Exhaustive Search
+  and Genetic Algorithm}}.
+\newblock \emph{International Journal of Heat and Mass Transfer}, Vol. 109, pp.
+  73--81.
+\newblock ISSN 00179310.
 
-\bibitem [\protect \citeauthoryear {%
-Biserni%
-, Rocha%
-\BCBL {}\ \BBA {} Bejan%
-}{%
-Biserni%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2004}}%
-}]{%
-Biserni2004}
-\APACinsertmetastar {%
-Biserni2004}%
-\begin{APACrefauthors}%
-Biserni, C.%
-, Rocha, L\BPBI A.%
-\BCBL {}\ \BBA {} Bejan, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2004}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Inverted fins: Geometric optimization of the intrusion
-  into a conducting wall}} {{Inverted fins: Geometric optimization of the
-  intrusion into a conducting wall}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{International Journal of Heat and Mass
-  Transfer}{47}{12-13}{2577--2586}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Biserni \emph{et~al.}(2004)Biserni, Rocha e Bejan}]{Biserni2004}
+Biserni, C., Rocha, L.A., Bejan, A., 2004.
+\newblock \enquote{{Inverted fins: Geometric optimization of the intrusion into
+  a conducting wall}}.
+\newblock \emph{International Journal of Heat and Mass Transfer}, Vol.~47, No.
+  12-13, pp. 2577--2586.
 
-\bibitem [\protect \citeauthoryear {%
-Biserni%
-, Rocha%
-, Stanescu%
-\BCBL {}\ \BBA {} Lorenzini%
-}{%
-Biserni%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2007}}%
-}]{%
-Biserni2007}
-\APACinsertmetastar {%
-Biserni2007}%
-\begin{APACrefauthors}%
-Biserni, C.%
-, Rocha, L\BPBI A.%
-, Stanescu, G.%
-\BCBL {}\ \BBA {} Lorenzini, E.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2007}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Constructal H-shaped cavities according to Bejan's
-  theory}} {{Constructal H-shaped cavities according to Bejan's
-  theory}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{International Journal of Heat and Mass
-  Transfer}{50}{11-12}{2132--2138}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Biserni \emph{et~al.}(2007)Biserni, Rocha, Stanescu e
+  Lorenzini}]{Biserni2007}
+Biserni, C., Rocha, L.A., Stanescu, G., Lorenzini, E., 2007.
+\newblock \enquote{{Constructal H-shaped cavities according to Bejan's
+  theory}}.
+\newblock \emph{International Journal of Heat and Mass Transfer}, Vol.~50, No.
+  11-12, pp. 2132--2138.
 
-\bibitem [\protect \citeauthoryear {%
-Gonzales%
-, dos Santos%
-, Isoldi%
-, Estrada%
-\BCBL {}\ \BBA {} Rocha%
-}{%
-Gonzales%
-, dos Santos%
-\BCBL {}\ \protect \BOthers {.}}{%
-{\protect \APACyear {2015}}%
-}]{%
-Gonzales2015cilamce}
-\APACinsertmetastar {%
-Gonzales2015cilamce}%
-\begin{APACrefauthors}%
-Gonzales, G\BPBI V.%
-, dos Santos, E\BPBI D.%
-, Isoldi, L\BPBI A.%
-, Estrada, E\BPBI d\BPBI S\BPBI D.%
-\BCBL {}\ \BBA {} Rocha, L\BPBI A\BPBI O.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Constructal design of isothermal double-T shaped cavity
-  by means of Simulated Annealing}} {{Constructal design of isothermal double-T
-  shaped cavity by means of Simulated Annealing}}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the XXXVI Iberian Latin-American Congress
-  on Computational Methods in Engineering - CILAMCE2015.} {Proceedings of the
-  xxxvi iberian latin-american congress on computational methods in engineering
-  - cilamce2015.}
-\newblock
-\APACaddressPublisher{Rio de Janeiro, Brazil}{}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Gonzales \emph{et~al.}(2015{\natexlab{a}})Gonzales, dos Santos,
+  Isoldi, Estrada e Rocha}]{Gonzales2015cilamce}
+Gonzales, G.V., dos Santos, E.D., Isoldi, L.A., Estrada, E.d.S.D., Rocha,
+  L.A.O., 2015{\natexlab{a}}.
+\newblock \enquote{{Constructal design of isothermal double-T shaped cavity by
+  means of Simulated Annealing}}.
+\newblock In \emph{Proceedings of the XXXVI Iberian Latin-American Congress on
+  Computational Methods in Engineering - CILAMCE2015}. Rio de Janeiro, Brazil.
 
-\bibitem [\protect \citeauthoryear {%
-Gonzales%
-\ \protect \BOthers {.}}{%
-Gonzales%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2017}}%
-}]{%
-Gonzales2017}
-\APACinsertmetastar {%
-Gonzales2017}%
-\begin{APACrefauthors}%
-Gonzales, G\BPBI V.%
-, dos Santos, E\BPBI D.%
-, Isoldi, L\BPBI A.%
-, Rocha, L\BPBI A\BPBI O.%
-, Silva~Neto, A\BPBI J.%
-\BCBL {}\ \BBA {} Telles, W\BPBI R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Constructal design of double-T shaped cavity with
-  stochastic methods Luus-Jaakola and Simulated Annealing}} {{Constructal
-  design of double-T shaped cavity with stochastic methods Luus-Jaakola and
-  Simulated Annealing}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Defect and Diffusion Forum}{370}{}{}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Gonzales \emph{et~al.}(2017)Gonzales, dos Santos, Isoldi, Rocha,
+  Silva~Neto e Telles}]{Gonzales2017}
+Gonzales, G.V., dos Santos, E.D., Isoldi, L.A., Rocha, L.A.O., Silva~Neto,
+  A.J., Telles, W.R., 2017.
+\newblock \enquote{{Constructal design of double-T shaped cavity with
+  stochastic methods Luus-Jaakola and Simulated Annealing}}.
+\newblock \emph{Defect and Diffusion Forum}, Vol. 370.
 
-\bibitem [\protect \citeauthoryear {%
-Gonzales%
-, dos Santos%
-\BCBL {}\ \BBA {} Silva~Neto%
-}{%
-Gonzales%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2018}}%
-}]{%
-Gonzales2018}
-\APACinsertmetastar {%
-Gonzales2018}%
-\begin{APACrefauthors}%
-Gonzales, G\BPBI V.%
-, dos Santos, E\BPBI D.%
-\BCBL {}\ \BBA {} Silva~Neto, A\BPBI J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2018}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Uma Compara{\c{c}}{\~{a}}o Entre Os Algoritmos De
+\bibitem[{Gonzales \emph{et~al.}(2018)Gonzales, dos Santos e
+  Silva~Neto}]{Gonzales2018}
+Gonzales, G.V., dos Santos, E.D., Silva~Neto, A.J., 2018.
+\newblock \enquote{{Uma Compara{\c{c}}{\~{a}}o Entre Os Algoritmos De
   Evolu{\c{c}}{\~{a}}o Diferencial E Recozimento Simulado Associados Ao Design
   Construtal Para A Otimiza{\c{c}}{\~{a}}o Geom{\'{e}}Trica De Uma Cavidade Em
-  Forma De Duplo-T}} {{Uma Compara{\c{c}}{\~{a}}o Entre Os Algoritmos De
-  Evolu{\c{c}}{\~{a}}o Diferencial E Recozimento Simulado Associados Ao Design
-  Construtal Para A Otimiza{\c{c}}{\~{a}}o Geom{\'{e}}Trica De Uma Cavidade Em
-  Forma De Duplo-T}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Revista Mundi Engenharia, Tecnologia e
-  Gest{\~{a}}o}{3}{2}{85--104}.
-\PrintBackRefs{\CurrentBib}
+  Forma De Duplo-T}}.
+\newblock \emph{Revista Mundi Engenharia, Tecnologia e Gest{\~{a}}o}, Vol.~3,
+  No.~2, pp. 85--104.
 
-\bibitem [\protect \citeauthoryear {%
-Gonzales%
-, Estrada%
-\BCBL {}\ \protect \BOthers {.}}{%
-Gonzales%
-, Estrada%
-\BCBL {}\ \protect \BOthers {.}}{%
-{\protect \APACyear {2015}}%
-}]{%
-Gonzales2015energy}
-\APACinsertmetastar {%
-Gonzales2015energy}%
-\begin{APACrefauthors}%
-Gonzales, G\BPBI V.%
-, Estrada, E\BPBI d\BPBI S.%
-, Emmendorfer, L.%
-, Isoldi, L.%
-, Xie, G.%
-, Rocha, L.%
-\BCBL {}\ \BBA {} dos Santos, E.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{A comparison of simulated annealing schedules for
+\bibitem[{Gonzales \emph{et~al.}(2015{\natexlab{b}})Gonzales, Estrada,
+  Emmendorfer, Isoldi, Xie, Rocha e dos Santos}]{Gonzales2015energy}
+Gonzales, G.V., Estrada, E.d.S.D., Emmendorfer, L.R., Isoldi, L.A., Xie, G.,
+  Rocha, L.A.O., dos Santos, E.D., 2015{\natexlab{b}}.
+\newblock \enquote{{A comparison of simulated annealing schedules for
   constructal design of complex cavities intruded into conductive walls with
-  internal heat generation}} {{A comparison of simulated annealing schedules
-  for constructal design of complex cavities intruded into conductive walls
-  with internal heat generation}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Energy}{93}{}{372--382}.
-\PrintBackRefs{\CurrentBib}
+  internal heat generation}}.
+\newblock \emph{Energy}, Vol.~93, pp. 372--382.
 
-\bibitem [\protect \citeauthoryear {%
-Lorenzini%
-\ \protect \BOthers {.}}{%
-Lorenzini%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2014}}%
-}]{%
-Lorenzini2014}
-\APACinsertmetastar {%
-Lorenzini2014}%
-\begin{APACrefauthors}%
-Lorenzini, G.%
-, Biserni, C.%
-, Estrada, E\BPBI D.%
-, Isoldi, L\BPBI A.%
-, dos Santos, E\BPBI D.%
-\BCBL {}\ \BBA {} Rocha, L\BPBI A\BPBI O.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Constructal design of convective Y-shaped cavities by
-  means of Genetic Algorithm}} {{Constructal design of convective Y-shaped
-  cavities by means of Genetic Algorithm}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Heat Transfer}{136}{7}{071702}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Lorenzini \emph{et~al.}(2014)Lorenzini, Biserni, Estrada, Isoldi, dos
+  Santos e Rocha}]{Lorenzini2014}
+Lorenzini, G., Biserni, C., Estrada, E.D., Isoldi, L.A., dos Santos, E.D.,
+  Rocha, L.A.O., 2014.
+\newblock \enquote{{Constructal design of convective Y-shaped cavities by means
+  of Genetic Algorithm}}.
+\newblock \emph{Journal of Heat Transfer}, Vol. 136, No.~7, p. 071702.
 
-\bibitem [\protect \citeauthoryear {%
-Lorenzini%
-, Biserni%
-, Isoldi%
-, dos Santos%
-\BCBL {}\ \BBA {} Rocha%
-}{%
-Lorenzini%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2011}}%
-}]{%
-Lorenzini2011}
-\APACinsertmetastar {%
-Lorenzini2011}%
-\begin{APACrefauthors}%
-Lorenzini, G.%
-, Biserni, C.%
-, Isoldi, L\BPBI A.%
-, dos Santos, E\BPBI D.%
-\BCBL {}\ \BBA {} Rocha, L\BPBI A\BPBI O.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2011}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Constructal Design Applied to the Geometric
-  Optimization of Y-shaped Cavities Embedded in a Conducting Medium}}
-  {{Constructal Design Applied to the Geometric Optimization of Y-shaped
-  Cavities Embedded in a Conducting Medium}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Electronic Packaging}{133}{4}{041008}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Lorenzini \emph{et~al.}(2011)Lorenzini, Biserni, Isoldi, dos Santos e
+  Rocha}]{Lorenzini2011}
+Lorenzini, G., Biserni, C., Isoldi, L.A., dos Santos, E.D., Rocha, L.A.O.,
+  2011.
+\newblock \enquote{{Constructal Design Applied to the Geometric Optimization of
+  Y-shaped Cavities Embedded in a Conducting Medium}}.
+\newblock \emph{Journal of Electronic Packaging}, Vol. 133, No.~4, p. 041008.
 
-\bibitem [\protect \citeauthoryear {%
-Reddy%
-\ \BBA {} Gartling%
-}{%
-Reddy%
-\ \BBA {} Gartling%
-}{%
-{\protect \APACyear {1994}}%
-}]{%
-Reddy1994}
-\APACinsertmetastar {%
-Reddy1994}%
-\begin{APACrefauthors}%
-Reddy, J\BPBI N.%
-\BCBT {}\ \BBA {} Gartling, D\BPBI K.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1994}.
-\newblock
-\APACrefbtitle {The Finite Element Method in Heat Transfer and Fluid Dynamics}
-  {The finite element method in heat transfer and fluid dynamics}.
-\newblock
-\APACaddressPublisher{New York}{McGrawHill}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Reddy e Gartling(1994)}]{Reddy1994}
+Reddy, J.N., Gartling, D.K., 1994.
+\newblock \emph{The Finite Element Method in Heat Transfer and Fluid Dynamics}.
+\newblock McGrawHill, New York.
 
-\bibitem [\protect \citeauthoryear {%
-Storn%
-\ \BBA {} Price%
-}{%
-Storn%
-\ \BBA {} Price%
-}{%
-{\protect \APACyear {1997}}%
-}]{%
-Storn1997}
-\APACinsertmetastar {%
-Storn1997}%
-\begin{APACrefauthors}%
-Storn, R.%
-\BCBT {}\ \BBA {} Price, K.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1997}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Differential Evolution - A Simple and Efficient
-  Heuristic for Global Optimization over Continuous Spaces}} {{Differential
-  Evolution - A Simple and Efficient Heuristic for Global Optimization over
-  Continuous Spaces}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Global Optimization}{11}{4}{341--359}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Storn e Price(1997)}]{Storn1997}
+Storn, R., Price, K., 1997.
+\newblock \enquote{{Differential Evolution - A Simple and Efficient Heuristic
+  for Global Optimization over Continuous Spaces}}.
+\newblock \emph{Journal of Global Optimization}, Vol.~11, No.~4, pp. 341--359.
 
-\bibitem [\protect \citeauthoryear {%
-Xie%
-, Chen%
-\BCBL {}\ \BBA {} Sun%
-}{%
-Xie%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2010}}%
-}]{%
-Xie2010}
-\APACinsertmetastar {%
-Xie2010}%
-\begin{APACrefauthors}%
-Xie, Z.%
-, Chen, L.%
-\BCBL {}\ \BBA {} Sun, F.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2010}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Geometry optimization of T-shaped cavities according to
-  constructal theory}} {{Geometry optimization of T-shaped cavities according
-  to constructal theory}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Mathematical and Computer
-  Modelling}{52}{9-10}{1538--1546}.
-\PrintBackRefs{\CurrentBib}
+\bibitem[{Xie \emph{et~al.}(2010)Xie, Chen e Sun}]{Xie2010}
+Xie, Z., Chen, L., Sun, F., 2010.
+\newblock \enquote{{Geometry optimization of T-shaped cavities according to
+  constructal theory}}.
+\newblock \emph{Mathematical and Computer Modelling}, Vol.~52, No. 9-10, pp.
+  1538--1546.
 
 \end{thebibliography}
