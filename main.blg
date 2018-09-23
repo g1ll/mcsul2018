@@ -1,12 +1,12 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
-The style file: xiiiemc.bst
+The style file: mcsul.bst
 Database file #1: referencial.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 13 entries,
             3271 wiz_defined-function locations,
-            760 strings with 8312 characters,
+            760 strings with 8310 characters,
 and the built_in function-call counts, 10297 in all, are:
 = -- 807
 > -- 434
