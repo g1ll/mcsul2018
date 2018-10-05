@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{12}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -102,12 +102,5 @@ Storn, R., Price, K., 1997.
 \newblock \enquote{{Differential Evolution - A Simple and Efficient Heuristic
   for Global Optimization over Continuous Spaces}}.
 \newblock \emph{Journal of Global Optimization}, Vol.~11, No.~4, pp. 341--359.
-
-\bibitem[{Xie \emph{et~al.}(2010)Xie, Chen e Sun}]{Xie2010}
-Xie, Z., Chen, L., Sun, F., 2010.
-\newblock \enquote{{Geometry optimization of T-shaped cavities according to
-  constructal theory}}.
-\newblock \emph{Mathematical and Computer Modelling}, Vol.~52, No. 9-10, pp.
-  1538--1546.
 
 \end{thebibliography}
