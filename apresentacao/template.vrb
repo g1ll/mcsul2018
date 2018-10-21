@@ -1,0 +1,10 @@
+\frametitle{}
+\begin{block}{\textbf{\textsc{ Simulated Annealing}}}
+	\justifying
+	\setlength{\parindent}{1cm}
+		\begin{itemize}
+			\item O SA é executado até atingir a temperatura $T$ de congelamento ou até atingir um limite de iterações.
+			\item neste trabalho diferentes parâmetros de CS são investigados.
+
+		\end{itemize}
+		\end{block}

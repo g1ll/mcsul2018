@@ -1,0 +1,13 @@
+\babel@toc {brazilian}{}
+\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Motiva\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Objetivos}{4}{0}{1}
+\beamer@subsectionintoc {1}{3}{Breve Estado da Arte}{5}{0}{1}
+\beamer@sectionintoc {2}{Modelagem Matem\IeC {\'a}tica e Num\IeC {\'e}rica}{6}{0}{2}
+\beamer@sectionintoc {3}{Otimiza\IeC {\c c}\IeC {\~a}o}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{Design Construtal}{12}{0}{3}
+\beamer@subsectionintoc {3}{2}{Configura\IeC {\c c}\IeC {\~a}o dos Algoritmos}{14}{0}{3}
+\beamer@sectionintoc {4}{Resultados}{16}{0}{4}
+\beamer@sectionintoc {5}{Conclus\IeC {\~a}o}{21}{0}{5}
+\beamer@sectionintoc {6}{Refer\IeC {\^e}ncias}{22}{0}{6}
+\beamer@sectionintoc {7}{Agradecimentos}{24}{0}{7}
